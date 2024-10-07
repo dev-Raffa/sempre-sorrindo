@@ -52,7 +52,7 @@ export default function Clinicas() {
             <Image src={clinic1} alt="faixada da clinica odontológica" />
             <h2>Jaboticabal</h2>
             <p>Rua Rui Barbosa, nº 619 - Jaboticabal - CROSP: 137906</p>
-            <Link className="book__btn" href="/unidades/Jaboticabal.html">
+            <Link className="book__btn" href="/unidades/jaboticabal">
               Entrar em contato
             </Link>
           </li>
@@ -60,7 +60,7 @@ export default function Clinicas() {
             <Image src={clinic2} alt="faixada da clinica odontológica" />
             <h2>Ribeirão Preto</h2>
             <p>Av. Presidente Vargas, nº 498 Ribeirão Preto - CROSP 111.613</p>
-            <Link className="book__btn" href="/unidades/ribeirao-preto-1.html">
+            <Link className="book__btn" href="/unidades/ribeirao-preto-1">
               Entrar em contato
             </Link>
           </li>
@@ -68,7 +68,7 @@ export default function Clinicas() {
             <Image src={clinic3} alt="faixada da clinica odontológica" />
             <h2>Bebedouro</h2>
             <p>Rua São João, nº 100 no coração de Bebedouro - CROSP: 119726</p>
-            <Link className="book__btn" href="/unidades/bebedouro.html">
+            <Link className="book__btn" href="/unidades/bebedouro">
               Entrar em contato
             </Link>
           </li>
@@ -76,7 +76,7 @@ export default function Clinicas() {
             <Image src={clinic4} alt="faixada da clinica odontológica" />
             <h2>Ribeirão Preto</h2>
             <p>Amador Bueno - Centro - CROSP: 105.838</p>
-            <Link className="book__btn" href="/unidades/ribeirao-preto-2.html">
+            <Link className="book__btn" href="/unidades/ribeirao-preto-2">
               Entrar em contato
             </Link>
           </li>
@@ -84,7 +84,7 @@ export default function Clinicas() {
             <Image src={clinic5} alt="faixada da clinica odontológica" />
             <h2>Ribeirão Preto</h2>
             <p>São Sebastião - Centro - CROSP: 12121</p>
-            <Link className="book__btn" href="/unidades/ribeirao-preto-3.html">
+            <Link className="book__btn" href="/unidades/ribeirao-preto-3">
               Entrar em contato
             </Link>
           </li>
@@ -92,7 +92,7 @@ export default function Clinicas() {
             <Image src={clinic6} alt="faixada da clinica odontológica" />
             <h2>Ribeirão Preto</h2>
             <p>Tibiriçá - Centro - CROSP: 12840</p>
-            <Link className="book__btn" href="/unidades/ribeirao-preto-4.html">
+            <Link className="book__btn" href="/unidades/ribeirao-preto-4">
               Entrar em contato
             </Link>
           </li>
@@ -100,7 +100,7 @@ export default function Clinicas() {
             <Image src={clinic7} alt="faixada da clinica odontológica" />
             <h2>Ribeirão Preto</h2>
             <p>Av. Dom Pedro I - Ipiranga</p>
-            <Link className="book__btn" href="/unidades/ribeirao-preto-5.html">
+            <Link className="book__btn" href="/unidades/ribeirao-preto-5">
               Entrar em contato
             </Link>
           </li>
@@ -108,7 +108,7 @@ export default function Clinicas() {
             <Image src={clinic8} alt="faixada da clinica odontológica" />
             <h2>Franca</h2>
             <p>Voluntários da Franca - Centro - CROSP: 145076</p>
-            <Link className="book__btn" href="/unidades/franca.html">
+            <Link className="book__btn" href="/unidades/franca">
               Entrar em contato
             </Link>
           </li>
@@ -116,7 +116,7 @@ export default function Clinicas() {
             <Image src={clinic9} alt="faixada da clinica odontológica" />
             <h2>Sertãozinho</h2>
             <p>Barão do Rio Branco - Centro - CROSP: 15088</p>
-            <Link className="book__btn" href="/unidades/sertaozinho.html">
+            <Link className="book__btn" href="/unidades/sertaozinho">
               Entrar em contato
             </Link>
           </li>
@@ -124,7 +124,7 @@ export default function Clinicas() {
             <Image src={clinic10} alt="faixada da clinica odontológica" />
             <h2>Barretos</h2>
             <p>Calçadão da 21, - Centro - CROSP: 109.485</p>
-            <Link className="book__btn" href="/unidades/barretos.html">
+            <Link className="book__btn" href="/unidades/barretos">
               Entrar em contato
             </Link>
           </li>

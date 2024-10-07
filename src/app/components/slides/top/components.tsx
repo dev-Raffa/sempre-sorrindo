@@ -2,8 +2,11 @@
 
 import Image from 'next/image';
 
-import image1 from '../../../../../public/img/sess1-slide1-desktop.webp';
-import image2 from '../../../../../public/img/sess1-slide2-desktop.webp';
+import imageDesktop1 from '../../../../../public/img/sess1-slide1-desktop.webp';
+import imageDesktop2 from '../../../../../public/img/sess1-slide2-desktop.webp';
+import imageMobile1 from '../../../../../public/img/sess1-slide1-mobile.webp';
+import imageMobile2 from '../../../../../public/img/sess1-slide2-mobile.webp';
+
 import {
   Carousel,
   CarouselContent,
@@ -24,19 +27,25 @@ export const TopSlide = () => {
       opts={{
         loop: true
       }}
+      className="h-full"
     >
-      <CarouselContent>
-        <CarouselItem className="p-0 m-0">
+      <CarouselContent className="h-full">
+        <CarouselItem className="p-0 m-0 h-full">
           <Image
-            src={image1}
+            src={imageMobile1}
             priority
             alt="duas pessoas sorrindo."
-            className="object-cover h-full"
+            className="object-cover h-full lg:hidden w-full object-top"
+          />
+          <Image
+            src={imageDesktop1}
+            priority
+            alt="duas pessoas sorrindo."
+            className="object-cover h-full hidden lg:flex"
           />
           <div className="banner__mobile-content">
             <h1>
-              Com nossa tecnologia avançada, oferecemos implantes dentários{' '}
-              <br />
+              Realize o sonho do implante dentário{' '}
               <span>em apenas 3 dias.</span>
             </h1>
             <a
@@ -49,9 +58,15 @@ export const TopSlide = () => {
         </CarouselItem>
         <CarouselItem className="p-0 m-0">
           <Image
-            src={image2}
+            src={imageMobile2}
             loading="lazy"
             alt="selo do ranking great places to work"
+          />
+          <Image
+            src={imageDesktop2}
+            loading="lazy"
+            alt="selo do ranking great places to work"
+            className="hidden lg:flex"
           />
         </CarouselItem>
       </CarouselContent>

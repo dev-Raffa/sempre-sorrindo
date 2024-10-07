@@ -6,9 +6,14 @@ export const Header = () => {
   return (
     <header>
       <div className="header__wrapper">
-        <a id="mobile__btn" className="md:hidden" href="/" data-mobile="btn">
-          {' '}
-        </a>
+        <input
+          id="mobile__btn"
+          className="md:hidden"
+          data-mobile="btn"
+          type="checkbox"
+          name="showMenu"
+          defaultChecked={false}
+        />
         <Logo />
         <Navigation />
         <Contacts />

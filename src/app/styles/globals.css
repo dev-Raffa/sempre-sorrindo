@@ -23,6 +23,8 @@
 header {
   /* @apply bg-gradient-to-r from-[#0F2C64] to-[#336BC5]; */
   background: linear-gradient(to right, #0f2c64 40%, #336bc5);
+  height: 75px;
+  z-index: 3;
 }
 
 @media (min-width: 1024px){
@@ -34,11 +36,8 @@ header {
     width: 100%;
     background-color: transparent;
     background: transparent;
+    height: unset;
   }
-}
-
-.header__wrapper{
-  width: 100%;
 }
 
 @media (min-width: 640px){
@@ -56,6 +55,8 @@ header {
 @media (min-width: 1024px){
   .header__wrapper{
     max-width: 1024px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 }
 
@@ -76,21 +77,22 @@ header {
   margin-right: auto;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  justify-content: space-between;
   padding-left: 1rem;
   padding-right: 1rem;
   font-family: var(--sora), sans serif;
   font-weight: 600;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+  width: 100%;
 }
 
 #mobile__btn {
+  appearance: none;
   display: block;
-  border-top: 4px solid white;
+  background-color: white;
   width: 28px;
+  height: 4px;
   border-radius: 2px;
 }
 
@@ -113,18 +115,42 @@ header {
   border-radius: 2px;
 }
 
-#mobile__btn.active {
-  border-top-color: transparent;
+#mobile__btn:checked {
+  background-color: transparent;
 }
 
-#mobile__btn.active::before {
+#mobile__btn:checked:before {
   transform: rotate(135deg);
 }
 
-#mobile__btn.active::after {
+#mobile__btn:checked::after {
   transform: rotate(-135deg);
   top: -9px;
 }
+
+#mobile__btn:checked ~ .header__nav{
+  display: flex;
+  z-index: 2;
+  animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) forwards;
+
+  @media screen and (min-width: 1024px ) {
+    animation: unset;
+  }
+}
+
+@keyframes slide-in-top {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+    opacity: 1;
+  }
+}
+
 
 .logo{
   margin-left: 2.5rem;
@@ -138,7 +164,7 @@ header {
 .header__nav {
   background: linear-gradient(to right, #0f2c64 44%, #336bc5);
   position: absolute;
-  top: 9rem;
+  top: 0;
   left: 0px;
   display: none;
   width: 100%;
@@ -168,12 +194,23 @@ header {
   padding-right: 2rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;  
+
+  @media screen and (min-width: 720px){
+    align-items: unset;
+    flex-direction: row;
+    justify-content: space-between;
+  } 
 }
 
 @media (min-width: 1024px){
   .header__nav-menu{
     display: flex;
     align-items: center;
+    flex-direction: row;
     justify-content: space-between;
   }
 }
@@ -185,11 +222,19 @@ header {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
   text-align: center;
+  width: 60%;
+
+  @media screen and (min-width: 720px){
+    padding-top: 0;
+    padding-bottom: 8px;
+    width: unset;
+  }
 }
 
 @media (min-width: 1024px){
   .header__nav-menu li{
     border-bottom-width: 0px;
+    width: unset;
   }
 }
 
@@ -219,7 +264,6 @@ header {
 .header__contact a{
   display: flex;
   align-items: center;
-  padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   font-size: 0.75rem;
   line-height: 1rem;
@@ -246,13 +290,20 @@ header {
 /* controls styles and media query in section 1 */
 
 #sess1{
-  height: 100%;
+  height: 60vh;
   width: 100%;
+
+  div[aria-roledescription="carousel"]{
+    div{
+      height: 100%;
+    }
+  }
 }
 
 .banner__list-item:first-child{
   position: relative;
 }
+
 
 .banner__list-item img{
   height: 85vh;
@@ -261,6 +312,7 @@ header {
 
 .banner__mobile-content{
   width: 100%;
+  height: 100%;
 }
 
 @media (min-width: 640px){
@@ -295,7 +347,7 @@ header {
 
 .banner__mobile-content{
   position: absolute;
-  bottom: 0px;
+  bottom: 4px;
   left: 0px;
   margin-left: auto;
   margin-right: auto;
@@ -304,9 +356,10 @@ header {
   width: 100%;
   flex-direction: column;
   justify-content: flex-end;
-  padding-left: 2rem;
+  padding-left: 1rem;
   padding-right: 2rem;
-  padding-bottom: 3rem;
+  text-align: center;
+  align-items: center;
 }
 
 @media (min-width: 1024px){
@@ -314,25 +367,31 @@ header {
     bottom: 2rem;
     left: 2rem;
     align-items: flex-start;
+    text-align: start;
   }
 }
 
 .banner__mobile-content h1{
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   width: 100%;
   font-family: var(--sora), sans serif;
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
   font-weight: 700;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+  
+  @media screen and (min-width: 720px){
+    font-size: 2rem;
+    line-height: 2.25rem;
+  }
 }
 
 @media (min-width: 1024px){
   .banner__mobile-content h1{
-    margin-left: 4rem;
+    margin-left: 1rem;
     max-width: 28rem;
-    font-size: 2.25rem;
+    font-size: 2rem;
     line-height: 2.5rem;
   }
 }
@@ -349,7 +408,7 @@ header {
 
 @media (min-width: 1024px){
   .banner__mobile-content a{
-    margin-left: 4rem;
+    margin-left: 1rem;
   }
 }
 
@@ -4836,36 +4895,44 @@ video {
   background-color: rgb(23 37 84 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\/SempreSorrindo\/dist\/img\/clinics\/barretos\.webp\'\)\]{
+.bg-\[url\(\'\/dist\/img\/clinics\/barretos\.webp\'\)\]{
   background-image: url('../../../public/img/clinics/barretos.webp');
 }
 
-.bg-\[url\(\'\/SempreSorrindo\/dist\/img\/clinics\/franca\.webp\'\)\]{
+.bg-\[url\(\'\/dist\/img\/clinics\/bebedouro\.webp\'\)\]{
+  background-image: url('../../../public/img/clinics/bebedouro.webp');
+}
+
+.bg-\[url\(\'\/dist\/img\/clinics\/franca\.webp\'\)\]{
   background-image: url('../../../public/img/clinics/franca.webp');
 }
 
 .bg-\[url\(\'\/dist\/img\/clinics\/Sertaozinho\.webp\'\)\]{
-  background-image: url('/dist/img/clinics/Sertaozinho.webp');
+  background-image: url('../../../public/img/clinics/Sertaozinho.webp');
 }
 
 .bg-\[url\(\'\/dist\/img\/clinics\/jaboticabal\.webp\'\)\]{
-  background-image: url('/dist/img/clinics/jaboticabal.webp');
+  background-image: url('../../../public/img/clinics/jaboticabal.webp');
 }
 
 .bg-\[url\(\'\/dist\/img\/clinics\/ribeirao-preto-1\.webp\'\)\]{
-  background-image: url('/dist/img/clinics/ribeirao-preto-1.webp');
+  background-image: url('../../../public/img/clinics/ribeirao-preto-1.webp');
 }
 
 .bg-\[url\(\'\/dist\/img\/clinics\/ribeirao-preto-2\.webp\'\)\]{
-  background-image: url('/dist/img/clinics/ribeirao-preto-2.webp');
+  background-image: url('../../../public/img/clinics/ribeirao-preto-2.webp');
 }
 
 .bg-\[url\(\'\/dist\/img\/clinics\/ribeirao-preto-3\.webp\'\)\]{
-  background-image: url('/dist/img/clinics/ribeirao-preto-3.webp');
+  background-image: url('../../../public/img/clinics/ribeirao-preto-3.webp');
+}
+
+.bg-\[url\(\'\/dist\/img\/clinics\/ribeirao-preto-4\.webp\'\)\]{
+  background-image: url('../../../public/img/clinics/ribeirao-preto-4.webp');
 }
 
 .bg-\[url\(\'\/dist\/img\/clinics\/ribeirao-preto-5\.webp\'\)\]{
-  background-image: url('/dist/img/clinics/ribeirao-preto-5.webp');
+  background-image: url('../../../public/img/clinics/ribeirao-preto-5.webp');
 }
 
 .decoration-slice{
@@ -5607,6 +5674,46 @@ body{
   @media (min-width: 1024px){
     .dark\:lg\:hover\:\[paint-order\:markers\]:hover{
       paint-order: markers;
+    }
+  }
+}
+
+body:has(section[id="sess1_single-clinic"]){
+  header{
+    background-color: #172554;
+    opacity: 0.8;
+    height: 100px;
+    display: flex;
+    align-items: center;
+
+    header__wrapper{
+      padding-top: 0;
+      padding-bottom: 0;
+
+      header__contact{
+        a{
+          padding-top: 0;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  header{
+    height: 100px;
+    display: flex;
+    align-items: center;
+
+    header__wrapper{
+      padding-top: 0;
+      padding-bottom: 0;
+
+      header__contact{
+        a{
+          padding-top: 0;
+        }
+      }
     }
   }
 }
