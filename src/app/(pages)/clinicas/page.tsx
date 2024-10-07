@@ -1,16 +1,16 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-import clinic1 from '../../../public/img/clinics/jaboticabal.webp';
-import clinic2 from '../../../public/img/clinics/ribeirao-preto-1.webp';
-import clinic3 from '../../../public/img/clinics/bebedouro.webp';
-import clinic4 from '../../../public/img/clinics/ribeirao-preto-2.webp';
-import clinic5 from '../../../public/img/clinics/ribeirao-preto-3.webp';
-import clinic6 from '../../../public/img/clinics/ribeirao-preto-4.webp';
-import clinic7 from '../../../public/img/clinics/ribeirao-preto-5.webp';
-import clinic8 from '../../../public/img/clinics/franca.webp';
-import clinic9 from '../../../public/img/clinics/sertaozinho.webp';
-import clinic10 from '../../../public/img/clinics/barretos.webp';
+import clinic1 from '../../../../public/img/clinics/jaboticabal.webp';
+import clinic2 from '../../../../public/img/clinics/ribeirao-preto-1.webp';
+import clinic3 from '../../../../public/img/clinics/bebedouro.webp';
+import clinic4 from '../../../../public/img/clinics/ribeirao-preto-2.webp';
+import clinic5 from '../../../../public/img/clinics/ribeirao-preto-3.webp';
+import clinic6 from '../../../../public/img/clinics/ribeirao-preto-4.webp';
+import clinic7 from '../../../../public/img/clinics/ribeirao-preto-5.webp';
+import clinic8 from '../../../../public/img/clinics/franca.webp';
+import clinic9 from '../../../../public/img/clinics/sertaozinho.webp';
+import clinic10 from '../../../../public/img/clinics/barretos.webp';
 
 export default function Clinicas() {
   return (
