@@ -3,15 +3,19 @@ import facebook from '../../../../../public/img/Facebook-black.svg';
 import twittet from '../../../../../public/img/Twitter-black.svg';
 import instagram from '../../../../../public/img/Instagram-black.svg';
 import whatsapp from '../../../../../public/img/whatsapp-black.svg';
+import image from '../../../../../public/img/clinics/sertaozinho.webp';
 
 export default function Sertaozinho() {
   return (
     <>
-      <section
-        id="sess1_single-clinic"
-        className="bg-[url('/dist/img/clinics/Sertaozinho.webp')] h-[100vh] w-full bg-cover bg-center bg-no-repeat  py-8 px-8"
-      >
-        <div className="sess1_single-clinic-wrapper"></div>
+      <section id="sess1_single-clinic" className="h-[85vh] w-full relative">
+        <Image
+          priority
+          src={image}
+          className="object-cover w-full h-full"
+          alt="fachada da loja"
+          quality={80}
+        />
       </section>
       <section id="sess2_single-clinic">
         <h1>

@@ -298,6 +298,10 @@ header {
       height: 100%;
     }
   }
+
+  @media screen and (min-width: 1024px){
+    height: 85vh;
+  }
 }
 
 .banner__list-item:first-child{
@@ -2338,13 +2342,7 @@ footer{
 #sess1_single-clinic{
   height: 85vh;
   width: 100%;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  overflow: hidden;
 }
 
 #sess2_single-clinic{
@@ -4893,46 +4891,6 @@ video {
 .bg-blue-950{
   --tw-bg-opacity: 1;
   background-color: rgb(23 37 84 / var(--tw-bg-opacity));
-}
-
-.bg-\[url\(\'\/dist\/img\/clinics\/barretos\.webp\'\)\]{
-  background-image: url('../../../public/img/clinics/barretos.webp');
-}
-
-.bg-\[url\(\'\/dist\/img\/clinics\/bebedouro\.webp\'\)\]{
-  background-image: url('../../../public/img/clinics/bebedouro.webp');
-}
-
-.bg-\[url\(\'\/dist\/img\/clinics\/franca\.webp\'\)\]{
-  background-image: url('../../../public/img/clinics/franca.webp');
-}
-
-.bg-\[url\(\'\/dist\/img\/clinics\/Sertaozinho\.webp\'\)\]{
-  background-image: url('../../../public/img/clinics/Sertaozinho.webp');
-}
-
-.bg-\[url\(\'\/dist\/img\/clinics\/jaboticabal\.webp\'\)\]{
-  background-image: url('../../../public/img/clinics/jaboticabal.webp');
-}
-
-.bg-\[url\(\'\/dist\/img\/clinics\/ribeirao-preto-1\.webp\'\)\]{
-  background-image: url('../../../public/img/clinics/ribeirao-preto-1.webp');
-}
-
-.bg-\[url\(\'\/dist\/img\/clinics\/ribeirao-preto-2\.webp\'\)\]{
-  background-image: url('../../../public/img/clinics/ribeirao-preto-2.webp');
-}
-
-.bg-\[url\(\'\/dist\/img\/clinics\/ribeirao-preto-3\.webp\'\)\]{
-  background-image: url('../../../public/img/clinics/ribeirao-preto-3.webp');
-}
-
-.bg-\[url\(\'\/dist\/img\/clinics\/ribeirao-preto-4\.webp\'\)\]{
-  background-image: url('../../../public/img/clinics/ribeirao-preto-4.webp');
-}
-
-.bg-\[url\(\'\/dist\/img\/clinics\/ribeirao-preto-5\.webp\'\)\]{
-  background-image: url('../../../public/img/clinics/ribeirao-preto-5.webp');
 }
 
 .decoration-slice{
