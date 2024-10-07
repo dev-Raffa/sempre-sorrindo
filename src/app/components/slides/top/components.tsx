@@ -61,12 +61,13 @@ export const TopSlide = () => {
             src={imageMobile2}
             loading="lazy"
             alt="selo do ranking great places to work"
+            className="lg:hidden"
           />
           <Image
             src={imageDesktop2}
             loading="lazy"
             alt="selo do ranking great places to work"
-            className="hidden lg:flex"
+            className="hidden lg:flex h-full"
           />
         </CarouselItem>
       </CarouselContent>
