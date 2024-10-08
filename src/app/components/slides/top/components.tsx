@@ -61,7 +61,7 @@ export const TopSlide = () => {
             src={imageMobile2}
             loading="lazy"
             alt="selo do ranking great places to work"
-            className="lg:hidden"
+            className="lg:hidden h-full"
           />
           <Image
             src={imageDesktop2}
