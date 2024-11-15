@@ -1,21 +1,15 @@
 import { Contacts } from '@/app/components/contacts/component';
 import { Logo } from '@/app/components/logo/component';
-import { Navigation } from '@/app/components/navigation/component';
+import { DesktopNavigation } from '@/app/components/navigation/desktop/component';
+import { MobileNavigation } from '@/app/components/navigation/mobile/component';
 
 export const Header = () => {
   return (
     <header>
       <div className="header__wrapper">
-        <input
-          id="mobile__btn"
-          className="md:hidden"
-          data-mobile="btn"
-          type="checkbox"
-          name="showMenu"
-          defaultChecked={false}
-        />
+        <MobileNavigation />
         <Logo />
-        <Navigation />
+        <DesktopNavigation />
         <Contacts />
       </div>
     </header>

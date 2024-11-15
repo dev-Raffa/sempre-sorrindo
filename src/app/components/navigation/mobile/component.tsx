@@ -1,8 +1,8 @@
 import Link from 'next/link';
 
-export const Navigation = () => {
+export const MobileNavigation = () => {
   return (
-    <nav className="header__nav" data-mobile="list">
+    <details className="header__nav " data-mobile="list">
       <ul className="header__nav-menu">
         <li>
           <Link href="/">Home</Link>
@@ -23,6 +23,6 @@ export const Navigation = () => {
           <Link href="/contato">Contato</Link>
         </li>
       </ul>
-    </nav>
+    </details>
   );
 };
