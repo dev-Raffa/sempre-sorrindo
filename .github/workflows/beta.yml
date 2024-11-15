@@ -37,11 +37,8 @@ jobs:
         password: ${{ secrets.ftp_beta_password }}
         protocol: ${{ secrets.ftp_protocol }}
         exclude: |
-          **/.vscode/
-          **/node_modules/
-          **/public/
-          **/src"
-          **/*.ts
-          **/.git*
-          **/.git*/**
+          **/.vscode/**
+          **/public/**
+          **/src*
+          **/*.ts*
           fileToExclude.txt
