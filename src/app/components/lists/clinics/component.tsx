@@ -20,6 +20,7 @@ export const Clinics = () => {
       <li className="clinics__list-item">
         <h3>Franca</h3>
         <p>Calçadão da Voluntários da Franca, 1325 - Centro</p>
+        <p>General Telles, 1255 - Centro</p>
       </li>
       <li className="clinics__list-item">
         <h3>Jaboticabal</h3>
