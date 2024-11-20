@@ -35,4 +35,4 @@ jobs:
         server: ${{ secrets.ftp_beta_host }}
         username: ${{ secrets.ftp_beta_username }}
         password: ${{ secrets.ftp_beta_password }}
-        protocol: ${{ sectrets.ftp_protocol }}
+        protocol: ${{ secrets.ftp_protocol }}
