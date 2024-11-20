@@ -11,6 +11,12 @@ import clinic7 from '../../../../public/img/clinics/ribeirao-preto-5.webp';
 import clinic8 from '../../../../public/img/clinics/franca.webp';
 import clinic9 from '../../../../public/img/clinics/sertaozinho.webp';
 import clinic10 from '../../../../public/img/clinics/barretos.webp';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Clinicas | Sempre Sorrindo',
+  description: `Encontre a clínica mais próxima e cuide do seu sorriso com profissionais especializados. Oferecemos uma ampla variedade de tratamentos odontológicos, como próteses e aparelhos dentários , com a mais alta tecnologia e atendimento personalizado. Agende sua consulta agora mesmo!`
+};
 
 export default function Clinicas() {
   return (

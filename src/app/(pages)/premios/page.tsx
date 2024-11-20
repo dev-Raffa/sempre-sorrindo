@@ -1,3 +1,4 @@
+import { Metadata } from 'next';
 import Image from 'next/image';
 
 import prize1 from '../../../../public/img/prizes/MELHORES DO ANO NO SEGUIMENTO ODONTOLOGICO 2020.webp';
@@ -14,6 +15,11 @@ import prize11 from '../../../../public/img/prizes/PREMIO THE DENTISTRY AWARDS 2
 import prize12 from '../../../../public/img/prizes/PREMIO TOP 3 THE BEST OF THE BEST.webp';
 import prize13 from '../../../../public/img/prizes/PREMIO TOP OF MIND 2020.webp';
 import prize14 from '../../../../public/img/prizes/PREMIO TOP OF MIND BRAZIL 2022 - INBRAP.webp';
+
+export const metadata: Metadata = {
+  title: 'Prêmios | Sempre Sorrindo',
+  description: `A mais premiada! Nossa rede foi reconhecida por diversas instituições nacionais e internacionais, como o MELHORES DO ANO NO SEGUIMENTO ODONTOLÓGICO, BRAZIL QUALITY CERTIFICATION, PRÊMIO DE ATENDIMENTO E QUALIDADE, PRÊMIO DE QUALIDADE EMPRESARIAL E PROFISSIONAL, PRÊMIO INTERNACIONAL LATIN AMERICAN QUALITY AWARDS, PRÊMIO ISO QUALITY, PRÊMIO MELHOR DO ANO, PRÊMIO PERSONALITÁ, PRÊMIO THE DENTISTRY AWARDS, PRÊMIO TOP 3 THE BEST OF THE BEST, PRÊMIO TOP OF MIND. Escolha a excelência e agende sua consulta!`
+};
 
 export default function Premios() {
   return (
