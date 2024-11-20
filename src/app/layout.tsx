@@ -15,7 +15,8 @@ const sora = Sora({
 
 export const metadata: Metadata = {
   title: 'Sempre Sorrindo',
-  description: `Conheça a Sempre Sorrindo, referência em odontologia em SP. Oferecemos tratamentos completos com estrutura moderna, atendimento de excelência e resultados comprovados. Confira nossos endereços, prêmios e depoimentos de clientes satisfeitos.`
+  description: `Conheça a Sempre Sorrindo, referência em odontologia em SP. Oferecemos tratamentos completos com estrutura moderna, atendimento de excelência e resultados comprovados. Confira nossos endereços, prêmios e depoimentos de clientes satisfeitos.`,
+  verification: { google: 'cOMMVGwllYMovj0HJTdijnWWQ7SpZY5Bfsc-nlh3yUU' }
 };
 
 export default function RootLayout({
