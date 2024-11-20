@@ -1,19 +1,19 @@
 import Image from 'next/image';
 
-import prize1 from '../../../../public/img/prizes/MELHORES DO ANO NO SEGUIMENTO ODONTOLÓGICO 2020.webp';
-import prize2 from '../../../../public/img/prizes/PRÊMIO BRAZIL QUALITY CERTIFICATION 2023 - LATIN AMERICAN QUALITY INSTITUTE.webp';
-import prize3 from '../../../../public/img/prizes/PRÊMIO DE ATENDIMENTO E QUALIDADE 2020.webp';
-import prize4 from '../../../../public/img/prizes/PRÊMIO DE QUALIDADE EMPRESARIAL E PROFISSIONAL 2019.webp';
-import prize5 from '../../../../public/img/prizes/PRÊMIO DE QUALIDADE EMPRESARIAL E PROFISSIONAL 2020-2.webp';
-import prize6 from '../../../../public/img/prizes/PRÊMIO DE QUALIDADE EMPRESARIAL E PROFISSIONAL 2020.webp';
-import prize7 from '../../../../public/img/prizes/PRÊMIO INTERNACIONAL LATIN AMERICAN QUALITY AWARDS 2020.webp';
-import prize8 from '../../../../public/img/prizes/PRÊMIO ISO QUALITY 2021.webp';
-import prize9 from '../../../../public/img/prizes/PRÊMIO MELHOR DO ANO 2021.webp';
-import prize10 from '../../../../public/img/prizes/PRÊMIO PERSONALITÁ 2019.webp';
-import prize11 from '../../../../public/img/prizes/PRÊMIO THE DENTISTRY AWARDS 2023 - LATIN AMERICAN QUALITY INSTITUTE.webp';
-import prize12 from '../../../../public/img/prizes/PRÊMIO TOP 3 THE BEST OF THE BEST.webp';
-import prize13 from '../../../../public/img/prizes/PRÊMIO TOP OF MIND 2020.webp';
-import prize14 from '../../../../public/img/prizes/PRÊMIO TOP OF MIND BRAZIL 2022 - INBRAP.webp';
+import prize1 from '../../../../public/img/prizes/MELHORES DO ANO NO SEGUIMENTO ODONTOLOGICO 2020.webp';
+import prize2 from '../../../../public/img/prizes/PREMIO BRAZIL QUALITY CERTIFICATION 2023 - LATIN AMERICAN QUALITY INSTITUTE.webp';
+import prize3 from '../../../../public/img/prizes/PREMIO DE ATENDIMENTO E QUALIDADE 2020.webp';
+import prize4 from '../../../../public/img/prizes/PREMIO DE QUALIDADE EMPRESARIAL E PROFISSIONAL 2019.webp';
+import prize5 from '../../../../public/img/prizes/PREMIO DE QUALIDADE EMPRESARIAL E PROFISSIONAL 2020-2.webp';
+import prize6 from '../../../../public/img/prizes/PREMIO DE QUALIDADE EMPRESARIAL E PROFISSIONAL 2020.webp';
+import prize7 from '../../../../public/img/prizes/PREMIO INTERNACIONAL LATIN AMERICAN QUALITY AWARDS 2020.webp';
+import prize8 from '../../../../public/img/prizes/PREMIO ISO QUALITY 2021.webp';
+import prize9 from '../../../../public/img/prizes/PREMIO MELHOR DO ANO 2021.webp';
+import prize10 from '../../../../public/img/prizes/PREMIO PERSONALITA 2019.webp';
+import prize11 from '../../../../public/img/prizes/PREMIO THE DENTISTRY AWARDS 2023 - LATIN AMERICAN QUALITY INSTITUTE.webp';
+import prize12 from '../../../../public/img/prizes/PREMIO TOP 3 THE BEST OF THE BEST.webp';
+import prize13 from '../../../../public/img/prizes/PREMIO TOP OF MIND 2020.webp';
+import prize14 from '../../../../public/img/prizes/PREMIO TOP OF MIND BRAZIL 2022 - INBRAP.webp';
 
 export default function Premios() {
   return (
