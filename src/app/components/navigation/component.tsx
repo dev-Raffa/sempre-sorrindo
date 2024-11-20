@@ -8,7 +8,7 @@ export const Navigation = () => {
           <Link href="/">Home</Link>
         </li>
         <li>
-          <Link href="/sobre">A Sempre Sorrindo</Link>
+          <Link href="#">A Sempre Sorrindo</Link>
         </li>
         <li>
           <Link href="/tratamentos">Tratamentos</Link>
@@ -20,7 +20,7 @@ export const Navigation = () => {
           <Link href="/premios">Prêmios</Link>
         </li>
         <li>
-          <Link href="/contato">Contato</Link>
+          <Link href="#">Contato</Link>
         </li>
       </ul>
     </nav>
