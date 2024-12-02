@@ -1685,8 +1685,8 @@ footer{
 
 .whatsapp__btn_floating{
   position: fixed;
-  bottom: 1.25rem;
-  right: 1.25rem;
+  bottom: 4rem;
+  right: 0.25rem;
   z-index: 40;
 }
 
@@ -1703,7 +1703,7 @@ footer{
 }
 
 .whatsapp__btn_floating{
-  animation: bounce 1s infinite;
+  animation: bounce 1s infinite; 
   border-radius: 9999px;
   --tw-bg-opacity: 1;
   background-color: rgb(21 128 61 / var(--tw-bg-opacity));
