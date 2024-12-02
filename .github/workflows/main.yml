@@ -33,6 +33,6 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
         server: ${{ secrets.ftp_host }}
-        username: ${{ secrets.ftp_beta_username }}
-        password: ${{ secrets.ftp_beta_password }}
+        username: ${{ secrets.ftp_username }}
+        password: ${{ secrets.ftp_password }}
         protocol: ${{ secrets.ftp_protocol }}
