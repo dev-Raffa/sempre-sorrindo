@@ -29,7 +29,7 @@ export const Footer = () => {
           </ul>
           <ul>
             <li>
-              <a href="/SempreSorrindo/pages/premios">Prêmios</a>
+              <a href="/premios">Prêmios</a>
             </li>
             <li>
               <a href="">Responsabilidade Social</a>
