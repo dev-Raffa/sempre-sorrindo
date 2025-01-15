@@ -17,8 +17,7 @@ export default async function Page() {
                   <Image
                     src={`https://backup.clinicassempresorrindo.com.br/storage/app/uploads/${blog.imgUrl}`}
                     alt={blog.title}
-                    width={250}
-                    height={250}
+                    fill
                     quality={100}
                   ></Image>
                   <figcaption>{blog.title}</figcaption>

@@ -1,9 +1,16 @@
 #NewsListPage{
     display:flex;
+    align-items: center;
+    justify-content: center;
     gap: 24px;
     flex-wrap: wrap;
-    margin-top: 200px;
-    padding: 0 8% 8% 100px;
+    margin-top: 100px;
+    padding: 0 32px 32px;
+    
+    @media screen and (min-width: 1024px) {
+        margin-top: 200px;
+        padding: 0 8% 8% 100px;
+    }
 
     li{
         width: fit-content;
@@ -15,12 +22,17 @@
         a{
             figure{
                 position: relative;
-                width: 250px;
+                width: 300px;
                 height: 370px;
                 
+                @media screen and (min-width: 1024px){
+                    width: 250px;
+                }
+
                 img{
                     object-fit: cover;
                     aspect-ratio: 1;
+                    height: 250px!important;
                 }
                 
                 figcaption{
