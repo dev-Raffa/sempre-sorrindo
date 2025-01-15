@@ -1,0 +1,20 @@
+#NewsPage{
+    margin-top: 100px;
+    padding: 0 8% 8% 100px;
+    article{
+        div{
+            figure{
+                height: 400px;
+                position: relative;
+                width: 100%;
+                margin-bottom: 24px;
+
+                img{
+                    object-fit: cover;
+                    aspect-ratio: 1;
+                }
+            
+            }
+        }
+    }
+}

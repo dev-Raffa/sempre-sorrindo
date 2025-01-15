@@ -1,0 +1,38 @@
+#NewsListPage{
+    display:flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    margin-top: 200px;
+    padding: 0 8% 8% 100px;
+
+    li{
+        width: fit-content;
+        height: fit-content;
+        box-shadow: 0px 1px 5px -1px black;
+        border-radius: 5px;
+        cursor: pointer;
+        
+        a{
+            figure{
+                position: relative;
+                width: 250px;
+                height: 370px;
+                
+                img{
+                    object-fit: cover;
+                    aspect-ratio: 1;
+                }
+                
+                figcaption{
+                    position: absolute;
+                    bottom: 8px;
+                    height: calc(100% - 264px);
+                    padding: 0 8px;
+                    font-family: var(--sora);
+                    font-size: 14px;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}

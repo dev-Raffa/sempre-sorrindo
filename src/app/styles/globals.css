@@ -34,8 +34,6 @@ header {
     left: 0px;
     z-index: 20;
     width: 100%;
-    background-color: transparent;
-    background: transparent;
     height: unset;
   }
 }
