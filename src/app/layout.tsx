@@ -29,8 +29,8 @@ export default function RootLayout({
     <html lang="pt-br">
       <GoogleTagManager gtmId="GTM-P438G7R5" />
       <body className={sora.className}>
-        <Header />
         <Main>{children}</Main>
+        <Header />
         <Footer />
       </body>
     </html>

@@ -21,10 +21,15 @@
 }
 
 header {
-  /* @apply bg-gradient-to-r from-[#0F2C64] to-[#336BC5]; */
-  background: linear-gradient(to right, #0f2c64 40%, #336bc5);
+  background: transparent;
   height: 75px;
   z-index: 3;
+}
+
+main:has(ul[id= "NewsListPage"]) ~ header,
+main:has(div[id= "NewsPage"]) ~ header 
+{
+  background: linear-gradient(to right, #0f2c64 40%, #336bc5);
 }
 
 @media (min-width: 1024px){
