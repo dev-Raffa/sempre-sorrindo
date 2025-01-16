@@ -27,8 +27,8 @@ export default async function DynamicPage({
   return (
     <div id="NewsPage">
       <section id="bannerNoticia"></section>
-      <article id="artic1">
-        <div className="center" style={{ margin: '50px 100px' }}>
+      <article>
+        <div className="center">
           <figure>
             <Image
               src={`https://backup.clinicassempresorrindo.com.br/storage/app/uploads/${page.imgUrl}`}

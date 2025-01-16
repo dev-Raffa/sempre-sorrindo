@@ -3,11 +3,23 @@
     padding: 0 32px 32px;
     
     @media screen and (min-width: 1024px) {
+        margin-top: 200px;
         padding: 0 8% 8% 100px;
     }
 
     article{
-        div{
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        
+        .center{
+            max-width: 850px;
+
+            @media screen and (min-width: 1024px) {
+               margin: 0px 150px;
+            }
+
             figure{
                 height: 400px;
                 position: relative;
