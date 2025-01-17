@@ -1363,12 +1363,13 @@ main {
   background-color: rgb(254 254 254 / var(--tw-bg-opacity));
 }
 
-.news__item img{
+.news__item figure {
+  position: relative;
   height: 280px;
 }
 
 .news__item h4{
-  height: 3rem;
+  height: 4rem;
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: 1rem;
