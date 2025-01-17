@@ -2,18 +2,21 @@ export interface PageData {
   url: string;
   title: string;
   text: string;
+  resume: string;
   imgUrl: string;
 }
 
 // Dados diretamente no código
-const pagesLocal: PageData[] = [
+export const pagesLocal: PageData[] = [
   {
     url: 'clinica-sempre-sorrindo-chega-em-araraquara-sp-com-sua-1-unidade-na-cidade',
     title:
       'Clínica Sempre Sorrindo chega em Araraquara - SP com sua 1 unidade na cidade.',
+    resume: `Aconteceu no dia 1 de outubro de 2024 a inauguração da primeira unidade da
+        Clínica Sempre Sorrindo na cidade de Araraquara - SP .`,
     text: `
         <p>Aconteceu no dia 1 de outubro de 2024 a inauguração da primeira unidade da
-        Clínica Sempre Sorrindo na cidade de Araraquara - SP .</p><br>
+        Clínica Sempre Sorrindo na cidade de Araraquara - SP.</p><br>
   
         <p>Com 14 anos de mercado, o grupo Sempre Sorrindo já é consolidado como a maior
         e melhor rede de clínicas odontológicas do interior paulista.
@@ -41,6 +44,8 @@ const pagesLocal: PageData[] = [
     url: 'inauguracao-da-2-unidade-da-clinica-sempre-sorrindo-na-cidade-de-franca-sp',
     title:
       'Inauguração da 2º unidade da Clínica Sempre Sorrindo na cidade de Franca - SP',
+    resume: `No dia 11 de novembro de 2024, a Clínica Sempre Sorrindo realizou a inauguração
+  de sua 2º unidade na cidade de Franca.`,
     text: `
   <p>No dia 11 de novembro de 2024, a Clínica Sempre Sorrindo realizou a inauguração
   de sua 2º unidade na cidade de Franca.</p><br>
@@ -80,6 +85,9 @@ const pagesLocal: PageData[] = [
   {
     url: 'clinicas-sempre-sorrindo-14-anos-consecutivos-top-of-mind',
     title: 'Clínicas Sempre Sorrindo, 14 anos consecutivos Top Of Mind!',
+    resume: `Neste dia 08 de dezembro de 2024 aconteceu o glamuroso evento do T op Of Mind
+  2024 realizado em Ribeirão Preto pelo Grupo Acontece e mais uma vez a Sempre
+  Sorrindo esteve presente.`,
     text: `
   <p>Neste dia 08 de dezembro de 2024 aconteceu o glamuroso evento do T op Of Mind
   2024 realizado em Ribeirão Preto pelo Grupo Acontece e mais uma vez a Sempre
@@ -112,7 +120,7 @@ const pagesLocal: PageData[] = [
 export interface IBlog {
   id: number;
   title: string;
-  resume?: string;
+  resume: string;
   tag?: string;
   text: string;
   date: unknown;
@@ -145,6 +153,7 @@ export async function getNews() {
     newsPages.push({
       text: blog.text,
       title: blog.title,
+      resume: blog.resume,
       url: generateSlug(blog.title),
       imgUrl: blog.image
     });
