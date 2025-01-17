@@ -3,6 +3,12 @@
 @tailwind utilities;
 
 
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .book__btn{
   border-top-right-radius: 0.5rem;
   border-top-left-radius: 0.5rem;
@@ -1315,6 +1321,11 @@ main {
 .sess7__wrapper{
   margin-left: auto;
   margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
   margin-bottom: 1rem;
   padding-top: 3rem;
   padding-bottom: 3rem;
