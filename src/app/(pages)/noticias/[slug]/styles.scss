@@ -1,8 +1,9 @@
 #NewsPage{
-    margin-top: 150px;
+    margin-top: 50px;
     padding: 0 32px 32px;
     width: 100%;
-    
+    display: flex;
+
     article{
         margin-left: auto;
         margin-right: auto;
@@ -13,7 +14,7 @@
             max-width: 960px;
 
             figure{
-                height: 400px;
+                height: 450px;
                 position: relative;
                 width: 100%;
                 margin-bottom: 24px;
