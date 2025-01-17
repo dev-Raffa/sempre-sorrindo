@@ -27,7 +27,12 @@ export const NewsSlide = () => {
       <CarouselContent className="news__list py-8">
         <CarouselItem className="news__item ml-4">
           <a href="https://www.clinicassempresorrindo.com.br/noticias/199/clinicas-sempre-sorrindo-participa-da-39o-festa-do-quitute-de-jaboticabal-em-comemoracao-ao-aniversario-de-195-anos-da-cidade.html">
-            <Image loading="lazy" src={news1} alt="" />
+            <Image
+              loading="lazy"
+              src={news1}
+              alt=""
+              style={{ objectFit: 'cover' }}
+            />
             <h4>NOVA CLÍNICA SEMPRE SORRINDO</h4>
             <p className="news__item-description">
               {' '}

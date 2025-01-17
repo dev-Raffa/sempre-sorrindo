@@ -1,0 +1,13 @@
+# *
+User-agent: *
+Allow: /
+
+# *
+User-agent: *
+Disallow: /.next
+
+# Host
+Host: https://www.clinicassempresorrindo.com.br
+
+# Sitemaps
+Sitemap: https://www.clinicassempresorrindo.com.br/sitemap.xml

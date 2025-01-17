@@ -20,7 +20,7 @@ export const Navigation = () => {
           <Link href="/premios">Prêmios</Link>
         </li>
         <li>
-          <Link href="#">Contato</Link>
+          <Link href="/noticias">Notícias</Link>
         </li>
       </ul>
     </nav>
