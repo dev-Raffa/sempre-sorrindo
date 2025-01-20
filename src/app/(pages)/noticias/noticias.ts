@@ -1,3 +1,5 @@
+import slugify from 'slugify';
+
 export interface PageData {
   url: string;
   title: string;
@@ -130,14 +132,6 @@ export interface IBlog {
   image: string;
 }
 
-const generateSlug = (title: string): string => {
-  return title
-    .toLowerCase()
-    .replace(/[^\w\s-]/g, '') // Remove caracteres especiais
-    .trim()
-    .replace(/\s+/g, '-'); // Substitui espaços por "-"
-};
-
 export async function getNews() {
   const newsOnBlog: IBlog[] = await fetch(
     'https://api.clinicassempresorrindo.com.br/blog'
@@ -154,7 +148,7 @@ export async function getNews() {
       text: blog.text,
       title: blog.title,
       resume: blog.resume,
-      url: generateSlug(blog.title),
+      url: slugify(blog.title),
       imgUrl: blog.image
     });
   });
