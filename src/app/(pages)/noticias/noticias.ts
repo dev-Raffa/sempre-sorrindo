@@ -148,7 +148,10 @@ export async function getNews() {
       text: blog.text,
       title: blog.title,
       resume: blog.resume,
-      url: slugify(blog.title),
+      url: slugify(blog.title, {
+        lower: true,
+        remove: /[\/:;\[\]\{\}\|\*\#@!?"'%=\+]/g
+      }),
       imgUrl: blog.image
     });
   });
