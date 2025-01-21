@@ -10,6 +10,15 @@ const nextConfig = {
         search: ''
       }
     ]
+  },
+  async redirects() {
+    return [
+      {
+        source: '/noticias/:id/:slug(.+)\\.html',
+        destination: '/noticias/:slug',
+        permanent: true
+      }
+    ];
   }
 };
 
