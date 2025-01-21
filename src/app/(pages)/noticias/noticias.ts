@@ -150,7 +150,7 @@ export async function getNews() {
       resume: blog.resume,
       url: slugify(blog.title, {
         lower: true,
-        remove: /[\/:;\[\]\{\}\|\*\#@!?"'%=\+]/g
+        remove: /[\/:;\[\]\{\}\|\*\#@!?"',%=\+]/g
       }),
       imgUrl: blog.image
     });
