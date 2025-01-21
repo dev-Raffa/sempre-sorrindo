@@ -17,6 +17,26 @@ const nextConfig = {
         source: '/noticias/:id/:slug(.+)\\.html',
         destination: '/noticias/:slug',
         permanent: true
+      },
+      {
+        source: '/home.html',
+        destination: '/',
+        permanent: true
+      },
+      {
+        source: '/home',
+        destination: '/',
+        permanent: true
+      },
+      {
+        source: '/pages/:slug(.+).html',
+        destination: '/:slug',
+        permanent: true
+      },
+      {
+        source: '/pages/:slug/:innerSlug(.+)\\.html',
+        destination: '/:slug/:innerSlug',
+        permanent: true
       }
     ];
   }
