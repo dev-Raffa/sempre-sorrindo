@@ -5,7 +5,6 @@ import './styles/globals.css';
 import { Header } from './layout/header/component';
 import { Main } from './layout/main/component';
 import { Footer } from './layout/footer/component';
-import { GoogleTagManager } from '@next/third-parties/google';
 
 const sora = Sora({
   subsets: ['latin'],
@@ -16,9 +15,8 @@ const sora = Sora({
 export const metadata: Metadata = {
   title: 'Sempre Sorrindo',
   description: `Conheça a Sempre Sorrindo, referência em odontologia em SP. Oferecemos tratamentos completos com estrutura moderna, atendimento de excelência e resultados comprovados. Confira nossos endereços, prêmios e depoimentos de clientes satisfeitos.`,
-  verification: { google: 'cOMMVGwllYMovj0HJTdijnWWQ7SpZY5Bfsc-nlh3yUU' },
   icons: { icon: './favicon.ico' },
-  robots: {}
+  robots: { index: false, follow: false }
 };
 
 export default function RootLayout({
@@ -28,7 +26,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
-      <GoogleTagManager gtmId="GTM-P438G7R5" />
       <body className={sora.className}>
         <Header />
         <Main>{children}</Main>
