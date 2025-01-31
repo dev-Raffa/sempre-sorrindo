@@ -129,7 +129,7 @@ export default function Clinicas() {
           <li className="clinics_grid-box">
             <Image src={clinic10} alt="faixada da clinica odontológica" />
             <h2>Barretos</h2>
-            <p>Calçadão da 21, - Centro - CROSP: 109.485</p>
+            <p>Calçadão da 21, - Centro - CROSP: 145.795</p>
             <Link className="book__btn" href="/unidades/barretos">
               Entrar em contato
             </Link>

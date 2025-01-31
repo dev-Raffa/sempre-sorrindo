@@ -12,7 +12,7 @@ export const Footer = () => {
               <a href="">Institucional</a>
             </li>
             <li>
-              <a href="/clinicas">Clinicas</a>
+              <a href="/unidades">Clinicas</a>
             </li>
             <li>
               <a href="/tratamentos">Tratamentos</a>

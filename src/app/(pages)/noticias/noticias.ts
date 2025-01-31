@@ -134,7 +134,7 @@ export interface IBlog {
 
 export async function getNews() {
   const newsOnBlog: IBlog[] = await fetch(
-    'https://api.clinicassempresorrindo.com.br/blog'
+    'https://api-sempre-sorrindo.vercel.app/blog'
   )
     .then((data) => data.json())
     .catch(() => {
@@ -150,7 +150,7 @@ export async function getNews() {
       resume: blog.resume,
       url: slugify(blog.title, {
         lower: true,
-        remove: /[\/:;\[\]\{\}\|\*\#@!?"',%=\+]/g
+        remove: /[\/:;\[\]\{\}\|\*\#@!?"'.,%=\+]/g
       }),
       imgUrl: blog.image
     });

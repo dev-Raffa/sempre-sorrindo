@@ -52,8 +52,8 @@ export default function Barretos() {
       <section id="sess3_single-clinic">
         <p>Responsável Técnico:</p>
         <h2>
-          Dr. Richard Salume Jr. <br />
-          CROSP: 109.485
+          Dra. Júlia Del Bianco Giacon <br />
+          CROSP: 145.795
         </h2>
         <div className="phone__contact">
           <p>Telefone:</p>
