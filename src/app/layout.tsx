@@ -19,7 +19,7 @@ export const generateMetadata = (): Metadata => {
   const currentUrl = headersList.get('next-url') || '/';
 
   return {
-    title: 'Meu Site',
+    title: 'Sempre Sorrindo',
     description: 'Descrição do meu site',
     verification: { google: 'cOMMVGwllYMovj0HJTdijnWWQ7SpZY5Bfsc-nlh3yUU' },
     icons: { icon: './favicon.ico' },
