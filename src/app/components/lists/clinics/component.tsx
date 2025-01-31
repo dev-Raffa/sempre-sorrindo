@@ -5,7 +5,7 @@ export const Clinics = () => {
         <h3>Ribeirão Preto</h3>
         <p>Amador Bueno, 490 - Centro</p>
         <p>Tibiriçá, 576 - Centro</p>
-        <p>São Sebastião, 614 - Centro</p>
+        <p>São Sebastião, 610 - Centro</p>
         <p>Av. Dom Pedro l, 709 - Ipiranga</p>
         <p>Av. Presidente Vargas, 498 - Jd. Sumaré</p>
       </li>

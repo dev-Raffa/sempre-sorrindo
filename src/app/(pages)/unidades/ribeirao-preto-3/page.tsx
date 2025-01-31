@@ -72,7 +72,7 @@ export default function Ribeirao3() {
         </div>
         <div className="address__info">
           <p>Nosso endereço:</p>
-          <h3>Rua São Sebastião, nº 614 - Centro 12308-320</h3>
+          <h3>Rua São Sebastião, nº 610 - Centro 12308-320</h3>
         </div>
       </section>
       <article className="clinic__open-info">
