@@ -17,10 +17,10 @@ export const metadata: Metadata = {
   title: 'Unidades | Sempre Sorrindo',
   description: `Encontre a clínica mais próxima e cuide do seu sorriso com profissionais especializados. Oferecemos uma ampla variedade de tratamentos odontológicos, como próteses e aparelhos dentários , com a mais alta tecnologia e atendimento personalizado. Agende sua consulta agora mesmo!`,
   alternates: {
-    canonical: `https://clinicassempresorrindo.com.br/unidades}`,
+    canonical: `https://clinicassempresorrindo.com.br/unidades`,
     languages: {
-      'pt-BR': `https://clinicassempresorrindo.com.br/unidades}`,
-      'pt-BR-alt': `https://beta.clinicassempresorrindo.com.br/unidades}`
+      'pt-BR': `https://clinicassempresorrindo.com.br/unidades`,
+      'pt-BR-alt': `https://beta.clinicassempresorrindo.com.br/unidades`
     }
   }
 };

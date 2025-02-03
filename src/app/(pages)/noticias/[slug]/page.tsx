@@ -1,7 +1,25 @@
 import './styles.scss';
 import { getNews, PageData } from '../noticias';
 import Image from 'next/image';
-import Head from 'next/head';
+import type { Metadata } from 'next';
+
+type Props = {
+  params: Promise<{ slug: string }>;
+};
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const slug = (await params).slug;
+
+  return {
+    alternates: {
+      canonical: `https://clinicassempresorrindo.com.br/noticias/${slug}`,
+      languages: {
+        'pt-BR': `https://clinicassempresorrindo.com.br/noticias/${slug}`,
+        'pt-BR-alt': `https://beta.clinicassempresorrindo.com.br/noticias/${slug}`
+      }
+    }
+  };
+}
 
 export async function generateStaticParams() {
   const pages: PageData[] = await getNews();
@@ -27,18 +45,6 @@ export default async function DynamicPage({
 
   return (
     <>
-      <Head>
-        <title>{page.title} | Sempre Sorrindo</title>
-        <meta name="description" content={page.text} />
-        <link
-          rel="canonical"
-          href={`https://clinicassempresorrindo.com.br/noticias/${slug}`}
-        />
-        <link
-          rel="alternate"
-          href={`https://clinicassempresorrindo.com.br/noticias/${slug}`}
-        />
-      </Head>
       <div id="NewsPage">
         <section id="bannerNoticia"></section>
         <article>

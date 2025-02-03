@@ -8,10 +8,10 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   alternates: {
-    canonical: `https://clinicassempresorrindo.com.br/barretos}`,
+    canonical: `https://clinicassempresorrindo.com.br/barretos`,
     languages: {
-      'pt-BR': `https://clinicassempresorrindo.com.br/barretos}`,
-      'pt-BR-alt': `https://beta.clinicassempresorrindo.com.br/barretos}`
+      'pt-BR': `https://clinicassempresorrindo.com.br/barretos`,
+      'pt-BR-alt': `https://beta.clinicassempresorrindo.com.br/barretos`
     }
   }
 };

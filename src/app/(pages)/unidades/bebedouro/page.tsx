@@ -8,10 +8,10 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   alternates: {
-    canonical: `https://clinicassempresorrindo.com.br/bebedouro}`,
+    canonical: `https://clinicassempresorrindo.com.br/bebedouro`,
     languages: {
-      'pt-BR': `https://clinicassempresorrindo.com.br/bebedouro}`,
-      'pt-BR-alt': `https://beta.clinicassempresorrindo.com.br/bebedouro}`
+      'pt-BR': `https://clinicassempresorrindo.com.br/bebedouro`,
+      'pt-BR-alt': `https://beta.clinicassempresorrindo.com.br/bebedouro`
     }
   }
 };
