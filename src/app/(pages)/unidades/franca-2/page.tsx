@@ -3,27 +3,27 @@ import facebook from '../../../../../public/img/Facebook-black.svg';
 import twittet from '../../../../../public/img/Twitter-black.svg';
 import instagram from '../../../../../public/img/Instagram-black.svg';
 import whatsapp from '../../../../../public/img/whatsapp-black.svg';
-import image from '../../../../../public/img/clinics/jaboticabal.webp';
+import image from '../../../../../public/img/clinics/franca.webp';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   alternates: {
-    canonical: `https://clinicassempresorrindo.com.br/jaboticabal}`,
+    canonical: `https://clinicassempresorrindo.com.br/franca-2}`,
     languages: {
-      'pt-BR': `https://clinicassempresorrindo.com.br/jaboticabal}`,
-      'pt-BR-alt': `https://beta.clinicassempresorrindo.com.br/jaboticabal}`
+      'pt-BR': `https://clinicassempresorrindo.com.br/franca-2}`,
+      'pt-BR-alt': `https://beta.clinicassempresorrindo.com.br/franca-2}`
     }
   }
 };
 
-export default function Jaboticabal() {
+export default function Franca2() {
   return (
     <>
       <section id="sess1_single-clinic" className="h-[85vh] w-full relative">
         <Image
           priority
           src={image}
-          className="object-cover object-center w-full h-full"
+          className="object-cover w-full h-full"
           alt="fachada da loja"
           quality={80}
         />
@@ -33,7 +33,7 @@ export default function Jaboticabal() {
           Clinica <br /> <span>Sempre Sorrindo</span>
         </h1>
         <div className="sess2_single-clinic-content">
-          <p>Jaboticabal</p>
+          <p>Franca</p>
           <nav>
             <ul>
               <li>
@@ -63,13 +63,13 @@ export default function Jaboticabal() {
       <section id="sess3_single-clinic">
         <p>Responsável Técnico:</p>
         <h2>
-          Dra. Caroline Cabrera Silva <br />
-          CROSP: 137.906
+          Dr. Andrey H. P. Fachineli <br />
+          CROSP: 101.327
         </h2>
         <div className="phone__contact">
           <p>Telefone:</p>
-          <a href="tel:551621412491">(16) 2141-2491</a>
-          <a href="tel:5516997174362">(16) 99717-4362</a>
+          <a href="tel:551637014040">(16) 3701-4040</a>
+          <a href="tel:5516996288999">(16) 99628-8999</a>
         </div>
         <div className="whatsapp__contact">
           <p>Whatsapp:</p>
@@ -82,7 +82,7 @@ export default function Jaboticabal() {
         </div>
         <div className="address__info">
           <p>Nosso endereço:</p>
-          <h3>R. Rui Barbosa, 619 - Centro, Jaboticabal - SP, 14870-300</h3>
+          <h3>R. General Telles, 1255 - Centro, Franca - SP, 14400-450</h3>
         </div>
       </section>
       <article className="clinic__open-info">
@@ -90,7 +90,7 @@ export default function Jaboticabal() {
       </article>
       <section id="sess4_single_clinic">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3718.37048641161!2d-48.3184414!3d-21.256797499999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b96c82afd287c9%3A0x1edc52030f7f9a78!2sR.%20Rui%20Barbosa%2C%20619%20-%20Centro%2C%20Jaboticabal%20-%20SP%2C%2014870-300!5e0!3m2!1spt-BR!2sbr!4v1664908253703!5m2!1spt-BR!2sbr"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3736.264573678684!2d-47.40473218507569!3d-20.536352986267193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b0a630532c416b%3A0xa7b0bc526cc0bcf4!2sRua%20Volunt%C3%A1rios%20da%20Franca%2C%201325%20-%20Centro%2C%20Franca%20-%20SP%2C%2014400-490!5e0!3m2!1spt-BR!2sbr!4v1617550769864!5m2!1spt-BR!2sbr"
           width="600"
           height="450"
           style={{ border: 0 }}

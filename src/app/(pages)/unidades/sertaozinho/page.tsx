@@ -4,6 +4,17 @@ import twittet from '../../../../../public/img/Twitter-black.svg';
 import instagram from '../../../../../public/img/Instagram-black.svg';
 import whatsapp from '../../../../../public/img/whatsapp-black.svg';
 import image from '../../../../../public/img/clinics/sertaozinho.webp';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: `https://clinicassempresorrindo.com.br/sertaozinho}`,
+    languages: {
+      'pt-BR': `https://clinicassempresorrindo.com.br/sertaozinho}`,
+      'pt-BR-alt': `https://beta.clinicassempresorrindo.com.br/sertaozinho}`
+    }
+  }
+};
 
 export default function Sertaozinho() {
   return (
@@ -71,7 +82,9 @@ export default function Sertaozinho() {
         </div>
         <div className="address__info">
           <p>Nosso endereço:</p>
-          <h3>Rua Barão do Rio Branco, nº 1378 - Centro 14160-600</h3>
+          <h3>
+             R. Barão do Rio Branco, 1378 - Centro, Sertãozinho - SP, 14160-600
+          </h3>
         </div>
       </section>
       <article className="clinic__open-info">

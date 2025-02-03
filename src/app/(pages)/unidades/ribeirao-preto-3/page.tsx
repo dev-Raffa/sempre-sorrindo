@@ -4,6 +4,17 @@ import twittet from '../../../../../public/img/Twitter-black.svg';
 import instagram from '../../../../../public/img/Instagram-black.svg';
 import whatsapp from '../../../../../public/img/whatsapp-black.svg';
 import image from '../../../../../public/img/clinics/ribeirao-preto-3.webp';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: `https://clinicassempresorrindo.com.br/ribeirao-preto-3}`,
+    languages: {
+      'pt-BR': `https://clinicassempresorrindo.com.br/ribeirao-preto-3}`,
+      'pt-BR-alt': `https://beta.clinicassempresorrindo.com.br/ribeirao-preto-3}`
+    }
+  }
+};
 
 export default function Ribeirao3() {
   return (
@@ -52,8 +63,8 @@ export default function Ribeirao3() {
       <section id="sess3_single-clinic">
         <p>Responsável Técnico:</p>
         <h2>
-          Dra. Ingrid Antoniazi <br />
-          CROSP: 119.726
+          Dr. Juan Antoniazi <br />
+          CROSP: 148.975
         </h2>
         <div className="phone__contact">
           <p>Telefone:</p>
@@ -72,7 +83,9 @@ export default function Ribeirao3() {
         </div>
         <div className="address__info">
           <p>Nosso endereço:</p>
-          <h3>Rua São Sebastião, nº 610 - Centro 12308-320</h3>
+          <h3>
+            RR. São Sebastião, 610 - Centro, Ribeirão Preto - SP, 14015-040
+          </h3>
         </div>
       </section>
       <article className="clinic__open-info">

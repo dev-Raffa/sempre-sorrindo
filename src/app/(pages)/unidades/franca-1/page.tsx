@@ -4,8 +4,19 @@ import twittet from '../../../../../public/img/Twitter-black.svg';
 import instagram from '../../../../../public/img/Instagram-black.svg';
 import whatsapp from '../../../../../public/img/whatsapp-black.svg';
 import image from '../../../../../public/img/clinics/franca.webp';
+import { Metadata } from 'next';
 
-export default function Franca() {
+export const metadata: Metadata = {
+  alternates: {
+    canonical: `https://clinicassempresorrindo.com.br/franca-1}`,
+    languages: {
+      'pt-BR': `https://clinicassempresorrindo.com.br/franca-1}`,
+      'pt-BR-alt': `https://beta.clinicassempresorrindo.com.br/franca-1}`
+    }
+  }
+};
+
+export default function Franca1() {
   return (
     <>
       <section id="sess1_single-clinic" className="h-[85vh] w-full relative">
@@ -52,8 +63,9 @@ export default function Franca() {
       <section id="sess3_single-clinic">
         <p>Responsável Técnico:</p>
         <h2>
-          Dr. Andrey H. P. Fachineli <br />
-          CROSP: 101.327
+          Dr. Ivan Ferreira Teixeira
+          <br />
+          CROSP: 155.056
         </h2>
         <div className="phone__contact">
           <p>Telefone:</p>

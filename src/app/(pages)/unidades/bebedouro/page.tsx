@@ -4,6 +4,17 @@ import twittet from '../../../../../public/img/Twitter-black.svg';
 import instagram from '../../../../../public/img/Instagram-black.svg';
 import whatsapp from '../../../../../public/img/whatsapp-black.svg';
 import image from '../../../../../public/img/clinics/bebedouro.webp';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: `https://clinicassempresorrindo.com.br/bebedouro}`,
+    languages: {
+      'pt-BR': `https://clinicassempresorrindo.com.br/bebedouro}`,
+      'pt-BR-alt': `https://beta.clinicassempresorrindo.com.br/bebedouro}`
+    }
+  }
+};
 
 export default function Bebedouro() {
   return (
@@ -70,7 +81,7 @@ export default function Bebedouro() {
         </div>
         <div className="address__info">
           <p>Nosso endereço:</p>
-          <h3>Rua São João, nº 100 - Centro 14700-119</h3>
+          <h3>Praça da Matriz, 100 - Centro, Bebedouro - SP, 14700-010</h3>
         </div>
       </section>
       <article className="clinic__open-info">

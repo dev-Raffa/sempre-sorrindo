@@ -4,6 +4,17 @@ import twittet from '../../../../../public/img/Twitter-black.svg';
 import instagram from '../../../../../public/img/Instagram-black.svg';
 import whatsapp from '../../../../../public/img/whatsapp-black.svg';
 import image from '../../../../../public/img/clinics/ribeirao-preto-5.webp';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: `https://clinicassempresorrindo.com.br/ribeirao-preto-5}`,
+    languages: {
+      'pt-BR': `https://clinicassempresorrindo.com.br/ribeirao-preto-5}`,
+      'pt-BR-alt': `https://beta.clinicassempresorrindo.com.br/ribeirao-preto-5}`
+    }
+  }
+};
 
 export default function Ribeirao5() {
   return (
@@ -54,7 +65,7 @@ export default function Ribeirao5() {
         <h2>
           Dr. Rodrigo José Ciampaglia Sacchini
           <br />
-          CROSP: 91669
+          CROSP: 091.669
         </h2>
         <div className="phone__contact">
           <p>Telefone:</p>
@@ -72,7 +83,9 @@ export default function Ribeirao5() {
         </div>
         <div className="address__info">
           <p>Nosso endereço:</p>
-          <h3>Av. Dom Pedro I, nº 709 - Ipiranga 14055-620</h3>
+          <h3>
+            Av. Dom Pedro I, 709 - Ipiranga, Ribeirão Preto - SP, 14055-620
+          </h3>
         </div>
       </section>
       <article className="clinic__open-info">

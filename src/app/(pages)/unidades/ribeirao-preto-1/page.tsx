@@ -4,6 +4,17 @@ import twittet from '../../../../../public/img/Twitter-black.svg';
 import instagram from '../../../../../public/img/Instagram-black.svg';
 import whatsapp from '../../../../../public/img/whatsapp-black.svg';
 import image from '../../../../../public/img/clinics/ribeirao-preto-1.webp';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: `https://clinicassempresorrindo.com.br/ribeirao-preto-1}`,
+    languages: {
+      'pt-BR': `https://clinicassempresorrindo.com.br/ribeirao-preto-1}`,
+      'pt-BR-alt': `https://beta.clinicassempresorrindo.com.br/ribeirao-preto-1}`
+    }
+  }
+};
 
 export default function Ribeirao1() {
   return (
@@ -71,7 +82,7 @@ export default function Ribeirao1() {
         </div>
         <div className="address__info">
           <p>Nosso endereço:</p>
-          <h3>Av. Presidente Vargas, n° 498 14025-405</h3>
+          <h3>Av. Presidente Vargas, n°498 - Jardim Sumaré - CEP 14025-405</h3>
         </div>
       </section>
       <article className="clinic__open-info">

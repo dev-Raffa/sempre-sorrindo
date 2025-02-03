@@ -4,6 +4,17 @@ import twittet from '../../../../../public/img/Twitter-black.svg';
 import instagram from '../../../../../public/img/Instagram-black.svg';
 import whatsapp from '../../../../../public/img/whatsapp-black.svg';
 import image from '../../../../../public/img/clinics/ribeirao-preto-4.webp';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: `https://clinicassempresorrindo.com.br/ribeirao-preto-4}`,
+    languages: {
+      'pt-BR': `https://clinicassempresorrindo.com.br/ribeirao-preto-4}`,
+      'pt-BR-alt': `https://beta.clinicassempresorrindo.com.br/ribeirao-preto-4}`
+    }
+  }
+};
 
 export default function Ribeirao4() {
   return (
@@ -52,8 +63,8 @@ export default function Ribeirao4() {
       <section id="sess3_single-clinic">
         <p>Responsável Técnico:</p>
         <h2>
-          Dra. Ingrid Antoniazi <br />
-          CROSP 119.726
+          Dra. Bruno Adolpho De Oliveira <br />
+          CROSP 137.315
         </h2>
         <div className="phone__contact">
           <p>Telefone:</p>
@@ -72,7 +83,7 @@ export default function Ribeirao4() {
         </div>
         <div className="address__info">
           <p>Nosso endereço:</p>
-          <h3>Rua São Sebastião, nº 614 - Centro 12308-320</h3>
+          <h3> R. Tibiriçá, 576 - Centro, Ribeirão Preto - SP, 14010-090</h3>
         </div>
       </section>
       <article className="clinic__open-info">

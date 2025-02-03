@@ -4,6 +4,17 @@ import twittet from '../../../../../public/img/Twitter-black.svg';
 import instagram from '../../../../../public/img/Instagram-black.svg';
 import whatsapp from '../../../../../public/img/whatsapp-black.svg';
 import image from '../../../../../public/img/clinics/barretos.webp';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: `https://clinicassempresorrindo.com.br/barretos}`,
+    languages: {
+      'pt-BR': `https://clinicassempresorrindo.com.br/barretos}`,
+      'pt-BR-alt': `https://beta.clinicassempresorrindo.com.br/barretos}`
+    }
+  }
+};
 
 export default function Barretos() {
   return (
@@ -71,7 +82,7 @@ export default function Barretos() {
         </div>
         <div className="address__info">
           <p>Nosso endereço:</p>
-          <h3>Calçadão da 21, n° 589 14780-050</h3>
+          <h3>Calçadão da 21, 589 - Centro, Barretos - SP, 14780-050</h3>
         </div>
       </section>
       <article className="clinic__open-info">

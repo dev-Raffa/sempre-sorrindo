@@ -15,7 +15,14 @@ import treatment11 from '../../../../public/img/treatment-icons/cirurgy.svg';
 
 export const metadata: Metadata = {
   title: 'Tratamentos | Sempre Sorrindo',
-  description: `Transforme seu sorriso! Nossa clínica oferece uma variedade de tratamentos odontológicos para cuidar da sua saúde bucal. Realizamos limpeza dental, restaurações, tratamento de canal, implantes dentários, ortodontia, clareamento dental, próteses dentárias e cirurgias orais. Conte com a nossa equipe especializada para um sorriso mais bonito e saudável.`
+  description: `Transforme seu sorriso! Nossa clínica oferece uma variedade de tratamentos odontológicos para cuidar da sua saúde bucal. Realizamos limpeza dental, restaurações, tratamento de canal, implantes dentários, ortodontia, clareamento dental, próteses dentárias e cirurgias orais. Conte com a nossa equipe especializada para um sorriso mais bonito e saudável.`,
+  alternates: {
+    canonical: `https://clinicassempresorrindo.com.br/tratamentos}`,
+    languages: {
+      'pt-BR': `https://clinicassempresorrindo.com.br/tratamentos}`,
+      'pt-BR-alt': `https://beta.clinicassempresorrindo.com.br/tratamentos}`
+    }
+  }
 };
 
 export default function Tratamentos() {

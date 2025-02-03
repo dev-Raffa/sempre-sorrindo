@@ -4,6 +4,17 @@ import twittet from '../../../../../public/img/Twitter-black.svg';
 import instagram from '../../../../../public/img/Instagram-black.svg';
 import whatsapp from '../../../../../public/img/whatsapp-black.svg';
 import image from '../../../../../public/img/clinics/ribeirao-preto-2.webp';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: `https://clinicassempresorrindo.com.br/ribeirao-preto-2}`,
+    languages: {
+      'pt-BR': `https://clinicassempresorrindo.com.br/ribeirao-preto-2}`,
+      'pt-BR-alt': `https://beta.clinicassempresorrindo.com.br/ribeirao-preto-2}`
+    }
+  }
+};
 
 export default function Ribeirao2() {
   return (
@@ -72,7 +83,9 @@ export default function Ribeirao2() {
         </div>
         <div className="address__info">
           <p>Nosso endereço:</p>
-          <h3>Rua Amador Bueno, nº 490 - Centro 14010-070</h3>
+          <h3>
+             R. Amador Bueno, 490 - Centro, Ribeirão Preto - SP, 14010-070
+          </h3>
         </div>
       </section>
       <article className="clinic__open-info">
