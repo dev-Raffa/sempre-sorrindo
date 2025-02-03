@@ -202,13 +202,13 @@ const nextConfig = {
         permanent: true
       },
       {
-        source: '/pages/:slug(.+)',
-        destination: '/:slug',
+        source: '/pages/:slug/:innerSlug(.+)\\.html',
+        destination: '/:slug/:innerSlug',
         permanent: true
       },
       {
-        source: '/pages/:slug/:innerSlug(.+)\\.html',
-        destination: '/:slug/:innerSlug',
+        source: '/pages/:slug(.+)',
+        destination: '/:slug',
         permanent: true
       }
     ];

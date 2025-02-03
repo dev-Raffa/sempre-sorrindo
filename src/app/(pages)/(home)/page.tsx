@@ -11,6 +11,20 @@ import { TestemonialsSlide } from '../../components/slides/testemonials/componen
 import { GooglePicture } from '../../components/pictures/google/component';
 import { TreatmentSlide } from '../../components/slides/treatments/component';
 import { Clinics } from '../../components/lists/clinics/component';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Sempre Sorrindo',
+  description:
+    'Sempre Sorrindo: referência em odontologia em SP. Tratamentos completos, estrutura moderna e excelência no atendimento. Confira endereços e prêmios.',
+  alternates: {
+    canonical: `https://clinicassempresorrindo.com.br`,
+    languages: {
+      'pt-BR': `https://clinicassempresorrindo.com.br`,
+      'pt-BR-alt': `https://beta.clinicassempresorrindo.com.br`
+    }
+  }
+};
 
 export default function Home() {
   return (

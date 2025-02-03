@@ -15,7 +15,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Unidades | Sempre Sorrindo',
-  description: `Encontre a clínica mais próxima e cuide do seu sorriso com profissionais especializados. Oferecemos uma ampla variedade de tratamentos odontológicos, como próteses e aparelhos dentários , com a mais alta tecnologia e atendimento personalizado. Agende sua consulta agora mesmo!`,
+  description: `Encontre a clínica mais próxima e cuide do seu sorriso com próteses, aparelhos e outros tratamentos odontológicos. Tecnologia de ponta e atendimento personalizado. Agende sua consulta!`,
   alternates: {
     canonical: `https://clinicassempresorrindo.com.br/unidades`,
     languages: {
@@ -145,7 +145,7 @@ export default function Clinicas() {
               Rua Voluntários da Franca, 1325 - Centro, Franca - SP, 14400-490 -
               CROSP: 145.076
             </p>
-            <Link className="book__btn" href="/unidades/franca">
+            <Link className="book__btn" href="/unidades/franca-1">
               Entrar em contato
             </Link>
           </li>
@@ -156,7 +156,7 @@ export default function Clinicas() {
               R. General Telles, 1255 - Centro, Franca - SP, 14400-450 - CROSP:
               032.750
             </p>
-            <Link className="book__btn" href="/unidades/franca">
+            <Link className="book__btn" href="/unidades/franca-2">
               Entrar em contato
             </Link>
           </li>

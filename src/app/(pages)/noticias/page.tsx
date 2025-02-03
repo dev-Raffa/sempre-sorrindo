@@ -6,7 +6,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Noticias | Sempre Sorrindo',
-  description: `A mais premiada! Nossa rede foi reconhecida por diversas instituições nacionais e internacionais, como o MELHORES DO ANO NO SEGUIMENTO ODONTOLÓGICO, BRAZIL QUALITY CERTIFICATION, PRÊMIO DE ATENDIMENTO E QUALIDADE, PRÊMIO DE QUALIDADE EMPRESARIAL E PROFISSIONAL, PRÊMIO INTERNACIONAL LATIN AMERICAN QUALITY AWARDS, PRÊMIO ISO QUALITY, PRÊMIO MELHOR DO ANO, PRÊMIO PERSONALITÁ, PRÊMIO THE DENTISTRY AWARDS, PRÊMIO TOP 3 THE BEST OF THE BEST, PRÊMIO TOP OF MIND. Escolha a excelência e agende sua consulta!`,
+  description: `Queremos te ver sorrir! Acompanhe nossas notícias e dicas para ter um sorriso ainda mais lindo e saudável.`,
   alternates: {
     canonical: `https://clinicassempresorrindo.com.br/noticias`,
     languages: {
