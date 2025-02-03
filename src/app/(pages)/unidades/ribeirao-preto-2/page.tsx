@@ -8,10 +8,10 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   alternates: {
-    canonical: `https://clinicassempresorrindo.com.br/ribeirao-preto-2`,
+    canonical: `https://clinicassempresorrindo.com.br/unidades/ribeirao-preto-2`,
     languages: {
-      'pt-BR': `https://clinicassempresorrindo.com.br/ribeirao-preto-2`,
-      'pt-BR-alt': `https://beta.clinicassempresorrindo.com.br/ribeirao-preto-2`
+      'pt-BR': `https://clinicassempresorrindo.com.br/unidades/ribeirao-preto-2`,
+      'pt-BR-alt': `https://beta.clinicassempresorrindo.com.br/unidades/ribeirao-preto-2`
     }
   }
 };

@@ -8,10 +8,10 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   alternates: {
-    canonical: `https://clinicassempresorrindo.com.br/sertaozinho`,
+    canonical: `https://clinicassempresorrindo.com.br/unidades/sertaozinho`,
     languages: {
-      'pt-BR': `https://clinicassempresorrindo.com.br/sertaozinho`,
-      'pt-BR-alt': `https://beta.clinicassempresorrindo.com.br/sertaozinho`
+      'pt-BR': `https://clinicassempresorrindo.com.br/unidades/sertaozinho`,
+      'pt-BR-alt': `https://beta.clinicassempresorrindo.com.br/unidades/sertaozinho`
     }
   }
 };

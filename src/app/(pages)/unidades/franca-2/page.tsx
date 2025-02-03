@@ -8,10 +8,10 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   alternates: {
-    canonical: `https://clinicassempresorrindo.com.br/franca-2`,
+    canonical: `https://clinicassempresorrindo.com.br/unidades/franca-2`,
     languages: {
-      'pt-BR': `https://clinicassempresorrindo.com.br/franca-2`,
-      'pt-BR-alt': `https://beta.clinicassempresorrindo.com.br/franca-2`
+      'pt-BR': `https://clinicassempresorrindo.com.br/unidades/franca-2`,
+      'pt-BR-alt': `https://beta.clinicassempresorrindo.com.br/unidades/franca-2`
     }
   }
 };
