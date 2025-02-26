@@ -12,7 +12,7 @@ export const Footer = () => {
               <a href="">Institucional</a>
             </li>
             <li>
-              <a href="/unidades">Clinicas</a>
+              <a href="/unidades">Clínicas</a>
             </li>
             <li>
               <a href="/tratamentos">Tratamentos</a>
@@ -36,6 +36,9 @@ export const Footer = () => {
             </li>
             <li>
               <a href="">Trabalhe Conosco</a>
+            </li>
+            <li>
+              <p>CNPJ: 12.463.123/0001-48</p>
             </li>
           </ul>
         </div>

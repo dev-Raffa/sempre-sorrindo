@@ -1,17 +1,7 @@
+import { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
-
-import clinic1 from '../../../../public/img/clinics/jaboticabal.webp';
-import clinic2 from '../../../../public/img/clinics/ribeirao-preto-1.webp';
-import clinic3 from '../../../../public/img/clinics/bebedouro.webp';
-import clinic4 from '../../../../public/img/clinics/ribeirao-preto-2.webp';
-import clinic5 from '../../../../public/img/clinics/ribeirao-preto-3.webp';
-import clinic6 from '../../../../public/img/clinics/ribeirao-preto-4.webp';
-import clinic7 from '../../../../public/img/clinics/ribeirao-preto-5.webp';
-import clinic8 from '../../../../public/img/clinics/franca.webp';
-import clinic9 from '../../../../public/img/clinics/sertaozinho.webp';
-import clinic10 from '../../../../public/img/clinics/barretos.webp';
-import { Metadata } from 'next';
+import { unidades } from './unidades';
 
 export const metadata: Metadata = {
   title: 'Unidades | Sempre Sorrindo',
@@ -61,6 +51,24 @@ export default function Clinicas() {
           <span>mais perto de você!</span>
         </h2>
         <ul className="clinics_grid">
+          {unidades.map((clinica) => {
+            return (
+              <li className="clinics_grid-box" key={clinica.slug}>
+                <Image
+                  src={clinica.imgURl}
+                  alt="faixada da clinica odontológica"
+                />
+                <h2>{clinica.cidade}</h2>
+                <p>
+                  {clinica.endereco}, {clinica.cep} - CROSP: {clinica.cro}
+                </p>
+                <Link className="book__btn" href={`/unidades/${clinica.slug}`}>
+                  Entrar em contato
+                </Link>
+              </li>
+            );
+          })}
+          {/*
           <li className="clinics_grid-box">
             <Image src={clinic1} alt="faixada da clinica odontológica" />
             <h2>Jaboticabal</h2>
@@ -182,6 +190,7 @@ export default function Clinicas() {
               Entrar em contato
             </Link>
           </li>
+          */}
         </ul>
       </section>
     </>

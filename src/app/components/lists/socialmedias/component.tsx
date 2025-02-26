@@ -9,22 +9,46 @@ import youtube from '../../../../../public/img/Youtube.svg';
 export const SocialMedias = () => {
   return (
     <div className="footer__media">
-      <a href="https://www.facebook.com/clinicassempresorrindo">
+      <a
+        href="https://www.facebook.com/clinicassempresorrindo"
+        target="_blank"
+        rel="noreferrer"
+      >
         <Image src={facebook} alt="icone do facebook" />
       </a>
-      <a href="https://twitter.com/@csempresorrindo">
+      <a
+        href="https://twitter.com/@csempresorrindo"
+        target="_blank"
+        rel="noreferrer"
+      >
         <Image src={twitter} alt="icone do twitter" />
       </a>
-      <a href="https://api.whatsapp.com/send?phone=5516981651441&text=Ol%C3%A1%20gostaria%20de%20saber%20como%20funciona%20a%20clinica!">
+      <a
+        href="https://api.whatsapp.com/send?phone=5516981651441&text=Ol%C3%A1%20gostaria%20de%20saber%20como%20funciona%20a%20clinica!"
+        target="_blank"
+        rel="noreferrer"
+      >
         <Image src={whatsapp} alt="icone do whatsapp" />
       </a>
-      <a href="https://www.instagram.com/clinicassempresorrindo/">
+      <a
+        href="https://www.instagram.com/clinicassempresorrindo/"
+        target="_blank"
+        rel="noreferrer"
+      >
         <Image src={instagram} alt="icone do instagram" />
       </a>
-      <a href="https://www.linkedin.com/in/cl%C3%ADnicassempresorrindo/">
+      <a
+        href="https://www.linkedin.com/in/cl%C3%ADnicassempresorrindo/"
+        target="_blank"
+        rel="noreferrer"
+      >
         <Image src={linkedin} alt="icone do linkedin" />
       </a>
-      <a href="https://www.youtube.com/channel/UCfxR_O4k3dv-Lrcd759OYjw">
+      <a
+        href="https://www.youtube.com/channel/UCfxR_O4k3dv-Lrcd759OYjw"
+        target="_blank"
+        rel="noreferrer"
+      >
         <Image src={youtube} alt="icone do youtube" />
       </a>
     </div>

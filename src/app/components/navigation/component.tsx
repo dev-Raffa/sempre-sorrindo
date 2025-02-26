@@ -14,7 +14,7 @@ export const Navigation = () => {
           <Link href="/tratamentos">Tratamentos</Link>
         </li>
         <li>
-          <Link href="/unidades">Clinicas</Link>
+          <Link href="/unidades">Clínicas</Link>
         </li>
         <li>
           <Link href="/premios">Prêmios</Link>
