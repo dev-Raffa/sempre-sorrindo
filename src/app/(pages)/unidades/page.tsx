@@ -34,12 +34,12 @@ export default function Clinicas() {
             Títulos Nacionais
           </p>
           <p>
-            <span>110</span>
+            <span>120</span>
             <br />
             Consultórios
           </p>
           <p>
-            <span>14 anos</span>
+            <span>15 anos</span>
             <br />
             Consecutivos como melhor rede de clínicas odontológicas
           </p>

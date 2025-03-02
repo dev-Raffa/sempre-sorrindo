@@ -43,10 +43,10 @@ export default function Home() {
               Mais de 65 <span>títulos nacionais</span> e internacionais.
             </p>
             <p>
-              Temos mais de <span>110 consultórios</span>
+              Temos mais de <span>120 consultórios</span>
             </p>
             <p>
-              <span>14 anos</span> consecutivos como a melhor rede de clínicas
+              <span>15 anos</span> consecutivos como a melhor rede de clínicas
               odontológicas
             </p>
           </div>

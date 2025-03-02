@@ -11,7 +11,7 @@ import RibeiraoPreto3Image from '@public/img/clinics/ribeirao-preto-3.webp';
 import RibeiraoPreto4Image from '@public/img/clinics/ribeirao-preto-4.webp';
 import RibeiraoPreto5Image from '@public/img/clinics/ribeirao-preto-5.webp';
 import SertaozinhoImage from '@public/img/clinics/sertaozinho.webp';
-import AraraquaraImage from '@public/img/clinics/araraquara.webp.jpg';
+import AraraquaraImage from '@public/img/clinics/araraquara.jpg';
 
 export interface IUnidades {
   imgURl: StaticImport;
@@ -231,7 +231,7 @@ export const unidades: IUnidades[] = [
     instagram: '',
     twitter: '',
     whatsapp: '',
-    cro: '105.838',
+    cro: '010.968',
     responsavelTecnico: {
       nome: 'Dr. CAIO FRANCESCHINI QUATROCHI',
       cro: '130.225'

@@ -63,22 +63,49 @@ export default async function DynamicPage({
           <nav>
             <ul>
               <li>
-                <a href={clinica.facebook}>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href={
+                    clinica.facebook ||
+                    'https://www.facebook.com/clinicassempresorrindo'
+                  }
+                >
                   <Image src={facebook} alt="facebook" />
                 </a>
               </li>
               <li>
-                <a href={clinica.twitter}>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href={
+                    clinica.twitter || 'https://twitter.com/@csempresorrindo'
+                  }
+                >
                   <Image src={twittet} alt="twitter" />
                 </a>
               </li>
               <li>
-                <a href={clinica.instagram}>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href={
+                    clinica.instagram ||
+                    'https://www.linkedin.com/in/cl%C3%ADnicassempresorrindo/'
+                  }
+                >
                   <Image src={instagram} alt="instagram" />
                 </a>
               </li>
               <li>
-                <a href={clinica.whatsapp}>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href={
+                    clinica.whatsapp ||
+                    'https://api.whatsapp.com/send?phone=5516981651441&text=Ol%C3%A1%20gostaria%20de%20saber%20como%20funciona%20a%20clinica!'
+                  }
+                >
                   <Image src={whatsapp} alt="whatsapp" />
                 </a>
               </li>
