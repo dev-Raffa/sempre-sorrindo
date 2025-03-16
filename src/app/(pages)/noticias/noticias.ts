@@ -11,6 +11,29 @@ export interface PageData {
 // Dados diretamente no código
 export const pagesLocal: PageData[] = [
   {
+    url: 'sempre-visao-comemora-um-mes-de-vida-com-sucesso-absoluto',
+    title: 'Sempre Visão comemora um mês de vida com sucesso absoluto',
+    resume:
+      'Com apenas um mês da inauguração o Dr. Raphael Brigagão e Dr. Breno Reis comemoram o sucesso da Sempre Visão.',
+    text: `
+    <p>Com um mês de vida <a href="https://semprevisao.com.br/" target= "__blank">Sempre Visão</a> já é motivo de orgulho para o Dr. Raphael Brigagão e Dr. Breno Reis.</p>
+    <p>Já realizamos o sonho de muitos pacientes que voltaram a enxergar e estão felizes e realizados</p>.
+    <p>Com sucesso absoluto nas cirurgias da catarata nós comemoramos esse marco na vida da Sempre Visão e estamos prontos para os próximos desafios.</p>
+    <p>Se você sonha em realizar sua consulta vista, precisa de exames oftalmológicos ou de cirurgia de catarata sem filas e com segurança a Sempre Visão é escolhe certa.</p>
+    `,
+    imgUrl: 'WhatsApp Image 2025-03-16 at 12.37.22_11967203.jpg'
+  },
+  {
+    url: 'grupo-sempre-inaugura-a-sempre-visao',
+    title: 'Grupo Sempre inaugura a Sempre Visão',
+    resume:
+      'Aconteceu no dia 10 de Fevereiro de 2025 a inauguração da Sempre Visão, a clínica oftalmológica da sua família. Uma empresa do Grupo Sempre.',
+    text: `<p>Com intuito de trazer ainda mais qualidade de vida e saúde para os pacientes das Clínicas Sempre Sorrindo, o grupo inova mais uma vez e em 2025 inaugura a <a href="https://semprevisao.com.br/" target= "__blank">Sempre Visão</a>, a clínica oftalmológica da sua família.<p/> 
+    <p>Trazendo o conceito do grupo Sempre Sorrindo com serviço de excelência e tecnologia de ponta, com os melhores profissionais do mercado e uma estrutura completa, a <a href="https://semprevisao.com.br/" target= "__blank">Sempre Visão</a> conta com grande variedade de exames e um centro cirúrgico próprio o que garante para os nossos pacientes muito mais conforto, segurança e tranquilidade, possibilitando cirurgias de catarata sem filas, consultas vista e exames especializados.<p/>
+    <p>Pois ver é viver. E disso, a gente entende.</p>`,
+    imgUrl: 'WhatsApp Image 2025-03-16 at 11.24.51_29f2dab6.jpg'
+  },
+  {
     url: 'clinica-sempre-sorrindo-chega-em-araraquara-sp-com-sua-1-unidade-na-cidade',
     title:
       'Clínica Sempre Sorrindo chega em Araraquara - SP com sua 1 unidade na cidade.',

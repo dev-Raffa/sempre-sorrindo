@@ -26,27 +26,29 @@ export const NewsSlide = () => {
       <CarouselContent className="news__list py-8">
         {pagesLocal.map((news, index) => {
           return (
-            <CarouselItem
-              key={`news-higlight-${index}`}
-              className="news__item ml-4"
-            >
-              <Link href={`/noticias/${news.url}`}>
-                <figure>
-                  <Image
-                    loading="lazy"
-                    src={`https://backup.clinicassempresorrindo.com.br/storage/app/uploads/${news.imgUrl}`}
-                    alt={news.title}
-                    style={{ objectFit: 'cover' }}
-                    fill
-                  />
-                </figure>
-                <h4>{news.title}</h4>
-                <p className="news__item-description">{news.resume}</p>
-                <div className="news__item-foot">
-                  <p>Leia Agora</p>
-                </div>
-              </Link>
-            </CarouselItem>
+            index <= 2 && (
+              <CarouselItem
+                key={`news-higlight-${index}`}
+                className="news__item ml-4"
+              >
+                <Link href={`/noticias/${news.url}`}>
+                  <figure>
+                    <Image
+                      loading="lazy"
+                      src={`https://backup.clinicassempresorrindo.com.br/storage/app/uploads/${news.imgUrl}`}
+                      alt={news.title}
+                      style={{ objectFit: 'cover' }}
+                      fill
+                    />
+                  </figure>
+                  <h4>{news.title}</h4>
+                  <p className="news__item-description">{news.resume}</p>
+                  <div className="news__item-foot">
+                    <p>Leia Agora</p>
+                  </div>
+                </Link>
+              </CarouselItem>
+            )
           );
         })}
       </CarouselContent>
