@@ -11,6 +11,140 @@ export interface PageData {
 // Dados diretamente no código
 export const pagesLocal: PageData[] = [
   {
+    url: 'O-que-e-Implante-Dentario-Tire-todas-as-suas-duvidas-sobre-esse-tratamento-que-transforma-sorrisos',
+    title:
+      'O que é Implante Dentário? Tire todas as suas dúvidas sobre esse tratamento que transforma sorrisos',
+    resume:
+      'O implante dentário é um tratamento que substitui dentes perdidos, proporcionando uma nova chance de sorrir com confiança.',
+    text: `
+      <p>
+          Se você já perdeu um ou mais dentes e está buscando uma solução definitiva, o <b>Implante Dentário</b> pode ser a resposta ideal. Este procedimento é cada vez mais procurado por quem deseja recuperar não só a estética do sorriso, mas também a saúde bucal e a qualidade de vida.
+      </p>
+      <p>
+          Neste artigo, vamos explicar tudo o que você precisa saber sobre <b>implantes dentários:</b> o que são, como funcionam, quem pode fazer e quais são os principais benefícios.
+      </p>
+      <h3>O que é um Implante Dentário?</h3>
+      <p>
+          O implante dentário é uma estrutura feita geralmente de titânio, que é inserida no osso da mandíbula ou maxila para substituir a raiz do dente perdido. Sobre essa base é fixada uma prótese, que simula um dente natural — tanto na estética quanto na função.
+      </p>
+      <p>
+          O resultado é um sorriso bonito, firme e funcional, que permite ao paciente voltar a comer, falar e sorrir com tranquilidade.
+      </p>
+      <h3>
+          Quem pode colocar Implantes Dentários?
+      </h3>
+      <p>
+          A maioria dos adultos pode realizar o procedimento.
+      </p>
+      <p>
+          Na Sempre Sorrindo, o paciente passa por uma avaliação completa com exames de imagem e planejamento digital, garantindo máxima segurança em cada etapa.
+      </p>
+      <h3>
+          Quais são os principais benefícios dos Implantes Dentários?
+      </h3>
+      <ul>
+          <li>✅ Estética natural</li>
+          <li>✅ Fala e mastigação restauradas</li>
+          <li>✅ Prevenção da perda óssea</li>
+          <li>✅ Substituição definitiva de próteses móveis</li>
+          <li>✅ Melhora na autoestima e na qualidade de vida</li>
+          <li>✅ Alta durabilidade</li>
+      </ul>
+      <h3>
+          Como é feita a cirurgia de Implante Dentário?
+      </h3>
+      <p>A cirurgia é rápida e minimamente invasiva, realizada com anestesia local.</p>
+      <p>Com os avanços tecnológicos, é possível realizar <strong>implantes com carga imediata</strong>, onde a prótese é colocada no mesmo dia da cirurgia.</p>
+      <h3>
+          Por que escolher a Sempre Sorrindo para fazer seu Implante Dentário?
+      </h3>
+      <p>
+          Com 15 anos de experiência e presença em 12 unidades no interior de São Paulo, a Sempre Sorrindo se destaca por unir tecnologia, equipe altamente especializada e um atendimento humanizado que coloca o paciente no centro de tudo.
+      </p>
+      <p>
+          Somos reconhecidos como a melhor e mais completa rede de clínicas odontológicas da região, e estamos prontos para te ajudar a recuperar o prazer de sorrir com segurança.
+      </p>
+      <p><strong>Agende uma avaliação gratuita e descubra se o Implante Dentário é indicado para você!</strong></p>
+      <ul>
+          <li>📞 (16) 98165-1441</li>
+          <li><a href="https://clinicassempressorrindo.com.br" target="_blank" rel="noopener noreferrer">🌐 www.clinicassempressorrindo.com.br
+      </a></li>
+          <li>📍 Ribeirão Preto | Franca | Sertãozinho | Barretos | Bebedouro | Jaboticabal | Araraquara</li>
+      </ul>
+      <b>A vida e feita de sorrisos. E disso, a gente entende.</b>
+    `,
+    imgUrl: 'quem-pode-fazer-implante-dentario-clinicas-sempre-sorrindo.jpeg'
+  },
+  {
+    url: 'Implante-Dentario-e-com-a-Sempre-Sorrindo-a-maior-rede-odontologica-do-interior-de-SP-oferece-o-tratamento-que-transforma-sorrisos',
+    title:
+      'Implante Dentário é com a Sempre Sorrindo: a maior rede odontológica do interior de SP oferece o tratamento que transforma sorrisos',
+    resume:
+      'A Sempre Sorrindo é a maior rede de clínicas odontológicas do interior paulista e referência em implantes dentários.',
+    text: `
+      <p>
+      <strong> 
+      Perdeu um ou mais dentes? Não adie a solução. Implantes dentários são a forma mais segura, moderna e definitiva de recuperar o seu sorriso — e a Sempre Sorrindo é referência absoluta no assunto.
+      </strong>
+      </p>
+      <p>
+       Com 15 anos de história, 12 unidades espalhadas pelo interior de São Paulo e prêmios que consagram sua excelência, <strong> a Sempre Sorrindo é a escolha certa para quem quer fazer um Implante Dentário com segurança, tecnologia e resultados incríveis.</strong>
+      </p>
+      <ul>
+        <p>
+            Por que fazer um Implante Dentário?
+        </p>
+        <li>
+            ✔ Recupera a estética do sorriso
+        </li>
+        <li>
+            ✔ Traz de volta a função da mastigação
+        </li>
+        <li>
+            ✔ Melhora a autoestima e a fala
+        </li>
+        <li>
+            ✔ Evita a perda óssea
+        </li>
+        <li>
+            ✔ Substitui próteses móveis desconfortáveis
+        </li>
+    </ul>
+    <p>
+    E o melhor: é um procedimento rápido, seguro e com alto índice de sucesso, principalmente quando realizado por especialistas como os da Sempre Sorrindo.
+    </p>
+    <h3>
+      12 unidades prontas para transformar o seu sorriso
+    </h3>
+    <ul>
+      A Sempre Sorrindo está presente nas principais cidades do interior:
+      <li>📍 Ribeirão Preto (5 clínicas)</li>
+      <li>📍 Franca (2 clínicas)</li>
+      <li>📍 Sertãozinho</li>
+      <li>📍 Barretos</li>
+      <li>📍 Bebedouro</li>
+      <li>📍 Jaboticabal</li>
+      <li>📍 Araraquara</li>
+    </ul>
+    <p>
+      Com estrutura moderna, atendimento humanizado e profissionais altamente capacitados, nossas clínicas oferecem o que há de melhor em <strong>implantes dentários</strong> — tudo com preços acessíveis e condições facilitadas. São mais de 120 consultórios para garantir conforto para os nossos pacientes.
+    </p>
+    <h3>
+      Não adie sua decisão: Implantes Dentários são um investimento em qualidade de vida
+    </h3>
+    <p>
+      Quanto mais tempo você adia a reposição de um dente perdido, maiores são as consequências para sua saúde bucal. Faça como milhares de pessoas que já voltaram a sorrir com confiança e agende sua avaliação agora mesmo.
+    </p>
+    <ul> 
+      <li>📞 Ligue ou envie uma mensagem para o WhatsApp: (16) 98165-1441</li>
+      <li>🌐 Acesse nosso site e agende sua avaliação online: <a href="https://clinicassempresorrindo.com.br" target="_blank" rel="noopener noreferrer">clinicassempresorrindo.com.br</a></li>
+      <li>📍 Visite uma de nossas clínicas e faça uma avaliação gratuita</li>
+    </ul>
+    <b>A vida e feita de sorrisos. E disso, a gente entende.</b>
+    `,
+    imgUrl: 'implante-dentario-clinicas-sempre-sorrindo.webp'
+  },
+  {
     url: 'sempre-visao-comemora-um-mes-de-vida-com-sucesso-absoluto',
     title: 'Sempre Visão comemora um mês de vida com sucesso absoluto',
     resume:
