@@ -17,7 +17,6 @@ export const metadata: Metadata = {
   title: 'Sempre Sorrindo',
   description:
     'Conheça a Sempre Sorrindo, referência em odontologia em SP. Oferecemos tratamentos completos com estrutura moderna, atendimento de excelência e resultados comprovados. Confira nossos endereços, prêmios e depoimentos de clientes satisfeitos.',
-  verification: { google: 'cOMMVGwllYMovj0HJTdijnWWQ7SpZY5Bfsc-nlh3yUU' },
   icons: { icon: './favicon.ico' },
   alternates: {
     canonical: `https://clinicassempresorrindo.com.br`,
@@ -35,7 +34,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
-      <GoogleTagManager gtmId="GTM-P438G7R5" />
+      <GoogleTagManager gtmId="GTM-NJVDJP4B" />
       <body className={sora.className}>
         <Header />
         <Main>{children}</Main>
