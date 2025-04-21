@@ -4,7 +4,7 @@ import facebook from '../../../../../public/img/Facebook-black.svg';
 import twittet from '../../../../../public/img/Twitter-black.svg';
 import instagram from '../../../../../public/img/Instagram-black.svg';
 import whatsapp from '../../../../../public/img/whatsapp-black.svg';
-import { IUnidades, unidades } from '../unidades';
+import { IUnidade, unidades } from '../unidades';
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export async function generateStaticParams() {
-  const pages: IUnidades[] = unidades;
+  const pages: IUnidade[] = unidades;
 
   return pages.map((page) => ({
     slug: page.slug

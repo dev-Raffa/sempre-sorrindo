@@ -5700,3 +5700,6 @@ body:has(section[id="sess1_single-clinic"]){
     }
   }
 }
+.iub__us-widget{
+  display: none !IMPORTANT;
+}

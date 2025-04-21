@@ -13,7 +13,7 @@ import RibeiraoPreto5Image from '@public/img/clinics/ribeirao-preto-5.webp';
 import SertaozinhoImage from '@public/img/clinics/sertaozinho.webp';
 import AraraquaraImage from '@public/img/clinics/araraquara.jpg';
 
-export interface IUnidades {
+export interface IUnidade {
   imgURl: StaticImport;
   cidade: string;
   slug: string;
@@ -36,7 +36,7 @@ export interface IUnidades {
   mapa: ReactElement;
 }
 
-export const unidades: IUnidades[] = [
+export const unidades: IUnidade[] = [
   {
     imgURl: BarretosImage,
     cidade: 'Barretos',
@@ -62,6 +62,7 @@ export const unidades: IUnidades[] = [
         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14942.972972427977!2d-48.5685809!3d-20.5576837!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8b282a8d8314eb4c!2sCl%C3%ADnicas%20Sempre%20Sorrindo!5e0!3m2!1spt-BR!2sbr!4v1622136330338!5m2!1spt-BR!2sbr"
         width="600"
         height="450"
+        className="w-full"
         style={{ border: 0 }}
         allowFullScreen
         loading="lazy"
@@ -93,6 +94,7 @@ export const unidades: IUnidades[] = [
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3128.6399936391545!2d-48.480879924327866!3d-20.95010479015554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bbe3fe23cb8f61%3A0x786ce6b1db9af594!2sErmida%20M%C3%A3e%20Rainha!5e0!3m2!1spt-BR!2sbr!4v1652746442814!5m2!1spt-BR!2sbr"
         width="600"
         height="450"
+        className="w-full"
         style={{ border: 0 }}
         allowFullScreen
         loading="lazy"
@@ -124,6 +126,7 @@ export const unidades: IUnidades[] = [
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3736.264573678684!2d-47.40473218507569!3d-20.536352986267193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b0a630532c416b%3A0xa7b0bc526cc0bcf4!2sRua%20Volunt%C3%A1rios%20da%20Franca%2C%201325%20-%20Centro%2C%20Franca%20-%20SP%2C%2014400-490!5e0!3m2!1spt-BR!2sbr!4v1617550769864!5m2!1spt-BR!2sbr"
         width="600"
         height="450"
+        className="w-full"
         style={{ border: 0 }}
         allowFullScreen
         loading="lazy"
@@ -152,8 +155,8 @@ export const unidades: IUnidades[] = [
     cep: '14400-450',
     mapa: (
       <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3736.264573678684!2d-47.40473218507569!3d-20.536352986267193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b0a630532c416b%3A0xa7b0bc526cc0bcf4!2sRua%20Volunt%C3%A1rios%20da%20Franca%2C%201325%20-%20Centro%2C%20Franca%20-%20SP%2C%2014400-490!5e0!3m2!1spt-BR!2sbr!4v1617550769864!5m2!1spt-BR!2sbr"
-        width="600"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3736.2645736786836!2d-47.40473218507569!3d-20.536352986267193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b0a65aa3c6b517%3A0xf8adf0b567278b36!2sR.%20Gen.%20Telles%2C%201255%20-%20Centro%2C%20Franca%20-%20SP%2C%2014400-450!5e0!3m2!1spt-BR!2sbr!4v1617550769864!5m2!1spt-BR!2sbr"
+        width="100%"
         height="450"
         style={{ border: 0 }}
         allowFullScreen
@@ -186,6 +189,7 @@ export const unidades: IUnidades[] = [
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3718.37048641161!2d-48.3184414!3d-21.256797499999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b96c82afd287c9%3A0x1edc52030f7f9a78!2sR.%20Rui%20Barbosa%2C%20619%20-%20Centro%2C%20Jaboticabal%20-%20SP%2C%2014870-300!5e0!3m2!1spt-BR!2sbr!4v1664908253703!5m2!1spt-BR!2sbr"
         width="600"
         height="450"
+        className="w-full"
         style={{ border: 0 }}
         allowFullScreen
         loading="lazy"
@@ -217,6 +221,7 @@ export const unidades: IUnidades[] = [
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3719.9823352062604!2d-47.80954338454105!3d-21.192860684288878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b9bedebddfadd5%3A0x60c4719f692a0ff6!2sAv.%20Pres.%20Vargas%2C%20498%20-%20Jardim%20Sumare%2C%20Ribeir%C3%A3o%20Preto%20-%20SP%2C%2014025-405!5e0!3m2!1spt-BR!2sbr!4v1655732921371!5m2!1spt-BR!2sbr"
         width="600"
         height="450"
+        className="w-full"
         style={{ border: 0 }}
         allowFullScreen
         loading="lazy"
@@ -248,6 +253,7 @@ export const unidades: IUnidades[] = [
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.440826384863!2d-47.81332358506483!3d-21.174640185919554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b9bef9a2e95555%3A0x34dbcad60b2026ce!2sCl%C3%ADnicas%20Sempre%20Sorrindo!5e0!3m2!1spt-BR!2sbr!4v1617551126090!5m2!1spt-BR!2sbr"
         width="600"
         height="450"
+        className="w-full"
         style={{ border: 0 }}
         allowFullScreen
         loading="lazy"
@@ -279,6 +285,7 @@ export const unidades: IUnidades[] = [
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.3888575429232!2d-47.81158398506473!3d-21.17670618591841!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b9befb91d11981%3A0x27b44c76ad50f4bb!2sCl%C3%ADnicas%20Sempre%20Sorrindo!5e0!3m2!1spt-BR!2sbr!4v1617550986714!5m2!1spt-BR!2sbr"
         width="600"
         height="450"
+        className="w-full"
         style={{ border: 0 }}
         allowFullScreen
         loading="lazy"
@@ -307,9 +314,10 @@ export const unidades: IUnidades[] = [
     cep: '14010-090',
     mapa: (
       <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.3888575429232!2d-47.81158398506473!3d-21.17670618591841!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b9befb91d11981%3A0x27b44c76ad50f4bb!2sCl%C3%ADnicas%20Sempre%20Sorrindo!5e0!3m2!1spt-BR!2sbr!4v1617550986714!5m2!1spt-BR!2sbr"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.3888575429232!2d-47.81158398506473!3d-21.17670618591841!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b9befa9f7e1a9d%3A0xb8a0d0a3a94dc784!2sR.%20Tibiri%C3%A7%C3%A1%2C%20576%20-%20Centro%2C%20Ribeir%C3%A3o%20Preto%20-%20SP%2C%2014010-090!5e0!3m2!1spt-BR!2sbr!4v1617550986714!5m2!1spt-BR!2sbr"
         width="600"
         height="450"
+        className="w-full"
         style={{ border: 0 }}
         allowFullScreen
         loading="lazy"
@@ -341,6 +349,7 @@ export const unidades: IUnidades[] = [
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.904261958359!2d-47.82145118544257!3d-21.156207983067016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b9be40dd5e353b%3A0xe4d9371477a13096!2sAv.%20Dom%20Pedro%20I%2C%20709%20-%20Ipiranga%2C%20Ribeir%C3%A3o%20Preto%20-%20SP%2C%2014055-620!5e0!3m2!1spt-BR!2sbr!4v1617550925769!5m2!1spt-BR!2sbr"
         width="600"
         height="450"
+        className="w-full"
         style={{ border: 0 }}
         allowFullScreen
         loading="lazy"
@@ -349,7 +358,7 @@ export const unidades: IUnidades[] = [
   },
   {
     imgURl: SertaozinhoImage,
-    cidade: 'Serãozinho',
+    cidade: 'Sertãozinho',
     slug: 'sertaozinho',
     facebook: '',
     instagram: '',
@@ -372,6 +381,7 @@ export const unidades: IUnidades[] = [
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.325332035245!2d-47.99042338506544!3d-21.139447485938536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b99924dd7021c7%3A0x1449c137bd82de76!2sCl%C3%ADnicas%20Sempre%20Sorrindo!5e0!3m2!1spt-BR!2sbr!4v1617550475996!5m2!1spt-BR!2sbr"
         width="600"
         height="450"
+        className="w-full"
         style={{ border: 0 }}
         allowFullScreen
         loading="lazy"
@@ -403,6 +413,7 @@ export const unidades: IUnidades[] = [
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3704.6741490878508!2d-48.17703512549209!3d-21.792868799011234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b8f3e5de932a89%3A0xa34478829d28bfc3!2sR.%20Nove%20de%20Julho%2C%20602%20-%20Araraquara%2C%20SP%2C%2014801-295!5e0!3m2!1spt-BR!2sbr!4v1740526430654!5m2!1spt-BR!2sbr"
         width="600"
         height="450"
+        className="w-full"
         style={{ border: 0 }}
         allowFullScreen
         loading="lazy"

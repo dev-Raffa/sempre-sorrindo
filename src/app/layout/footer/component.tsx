@@ -4,8 +4,8 @@ import { SocialMedias } from '@/app/components/lists/socialmedias/component';
 
 export const Footer = () => {
   return (
-    <footer>
-      <div className="footer__wrapper">
+    <footer className="bg-[#0d205a]">
+      <div className="footer__wrapper ">
         <div className="footer__links-list">
           <ul>
             <li>
