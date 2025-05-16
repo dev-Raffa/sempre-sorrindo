@@ -78,9 +78,8 @@ export default function HeroSection() {
                 </div>
                 <div>
                   <p className="text-sm font-medium text-gray-900">
-                    98% de satisfação
+                    Pacientes satisfeitos
                   </p>
-                  <p className="text-xs text-gray-500">Pacientes satisfeitos</p>
                 </div>
               </div>
             </div>
