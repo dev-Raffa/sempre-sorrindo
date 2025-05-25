@@ -4,6 +4,7 @@ import { StaticImport } from 'next/dist/shared/lib/get-img-props';
 import BarretosImage from '@public/img/clinics/barretos.webp';
 import BebedoureImage from '@public/img/clinics/bebedouro.webp';
 import Franca1Image from '@public/img/clinics/franca.webp';
+import Franca2Image from '@public/img/clinics/franca-2.jpeg';
 import JaboticabalImage from '@public/img/clinics/jaboticabal.webp';
 import RibeiraoPreto1Image from '@public/img/clinics/ribeirao-preto-1.webp';
 import RibeiraoPreto2Image from '@public/img/clinics/ribeirao-preto-2.webp';
@@ -134,7 +135,7 @@ export const unidades: IUnidade[] = [
     )
   },
   {
-    imgURl: Franca1Image,
+    imgURl: Franca2Image,
     cidade: 'Franca',
     slug: 'franca-2',
     facebook: '',
@@ -147,7 +148,7 @@ export const unidades: IUnidade[] = [
       cro: '101.327'
     },
     contato: {
-      telefones: ['(16) 3701-4040', '(16) 99628-8999'],
+      telefones: ['(16) 3701-1011', '(16) 98228-0028'],
       whatsapp: '5516981651441',
       celular: '(16) 98165-1441'
     },
