@@ -7,11 +7,18 @@ import whatsapp from '../../../../../public/img/whatsapp-black.svg';
 import { IUnidade, unidades } from '../unidades';
 
 type Props = {
-  params: Promise<{ slug: string }>;
+  params: { slug: string };
 };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const slug = (await params).slug;
+  const slug = params.slug;
+  const page = unidades.find((unidade) => unidade.slug === slug);
+
+  if (!page) {
+    return {
+      title: 'Unidade não encontrada'
+    };
+  }
 
   return {
     alternates: {
@@ -20,6 +27,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         'pt-BR': `https://clinicassempresorrindo.com.br/unidades/${slug}`,
         'pt-BR-alt': `https://beta.clinicassempresorrindo.com.br/unidades/${slug}`
       }
+    },
+    description: `Conheça a Clínica Sempre Sorrindo em ${page.cidade}. Referência em tratamentos odontológicos e implantes. Agende sua consulta! 📞 ${page.contato.celular}`,
+    title: `Sempre Sorrindo ${page.cidade} - Clínica Odontológica`,
+    openGraph: {
+      type: 'website',
+      title: `Sempre Sorrindo ${page.cidade} - Clínica Odontológica`,
+      description: `Conheça a Clínica Sempre Sorrindo em ${page.cidade}. Referência em tratamentos odontológicos e implantes. Agende sua consulta! 📞 ${page.contato.celular}`,
+      images: [
+        `https://backup.clinicassempresorrindo.com.br/storage/app/uploads/${page.imgURl}`
+      ]
     }
   };
 }
@@ -32,11 +49,7 @@ export async function generateStaticParams() {
   }));
 }
 
-export default async function DynamicPage({
-  params
-}: {
-  params: { slug: string };
-}) {
+export default async function DynamicPage({ params }: Props) {
   const clinica = unidades.find((unidade) => unidade.slug === params.slug);
 
   if (!clinica) {

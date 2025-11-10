@@ -9,6 +9,8 @@ type Props = {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const slug = (await params).slug;
+  const newsPages: PageData[] = await getNews();
+  const page = newsPages.find((page) => page.url === slug);
 
   return {
     alternates: {
@@ -17,6 +19,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         'pt-BR': `https://clinicassempresorrindo.com.br/noticias/${slug}`,
         'pt-BR-alt': `https://beta.clinicassempresorrindo.com.br/noticias/${slug}`
       }
+    },
+    description: page?.resume,
+    title: page?.title,
+    openGraph: {
+      type: 'article',
+      title: page?.title,
+      description: page?.resume,
+      images: [
+        `https://backup.clinicassempresorrindo.com.br/storage/app/uploads/${page?.imgUrl}`
+      ]
     }
   };
 }

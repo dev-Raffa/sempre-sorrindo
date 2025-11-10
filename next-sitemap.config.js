@@ -2,8 +2,8 @@
 module.exports = {
   siteUrl: 'https://www.clinicassempresorrindo.com.br',
   generateRobotsTxt: true,
-  changefreq: 'weekly', // Frequência de atualização
-  priority: 1, // Prioridade padrão das páginas
+  changefreq: 'weekly',
+  priority: 1,
   exclude: [],
   robotsTxtOptions: {
     policies: [

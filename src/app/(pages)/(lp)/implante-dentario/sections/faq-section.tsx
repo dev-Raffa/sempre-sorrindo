@@ -49,8 +49,28 @@ export default function FaqSection() {
     }
   ];
 
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqs.map((faq) => {
+      return {
+        '@type': 'Question',
+        name: faq.question,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: faq.answer
+        }
+      };
+    })
+  };
+
   return (
     <section id="faq" className="bg-white py-16 md:py-24">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+
       <div className="container mx-auto px-4 md:px-16">
         <div className="mb-12 text-center">
           <h2 className="mb-4 text-3xl font-bold text-[#203c89] md:text-4xl">
