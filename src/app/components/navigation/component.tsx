@@ -11,6 +11,11 @@ export const Navigation = () => {
           <Link href="#">A Sempre Sorrindo</Link>
         </li>
         <li>
+          <Link href="/implante-dentario" className="text-yellow-400">
+            Implante dentário
+          </Link>
+        </li>
+        <li>
           <Link href="/tratamentos">Tratamentos</Link>
         </li>
         <li>

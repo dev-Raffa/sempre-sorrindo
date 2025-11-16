@@ -55,8 +55,40 @@ export default async function DynamicPage({
     return <h1>404 - Página não encontrada</h1>;
   }
 
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': `https://clinicassempresorrindo.com.br/noticias/${slug}`
+    },
+    headline: page.title,
+    image: [
+      `https://backup.clinicassempresorrindo.com.br/storage/app/uploads/${page.imgUrl}`
+    ],
+    author: {
+      '@type': 'Organization',
+      name: 'Sempre Sorrindo',
+      url: 'https://clinicassempresorrindo.com.br'
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'Sempre Sorrindo',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://clinicassempresorrindo.com.br/img/logo.webp'
+      }
+    },
+    description: page.resume + '...',
+    articleBody: page.text
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <div id="NewsPage">
         <section id="bannerNoticia"></section>
         <article>

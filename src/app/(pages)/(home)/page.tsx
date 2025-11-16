@@ -12,6 +12,7 @@ import { GooglePicture } from '../../components/pictures/google/component';
 import { TreatmentSlide } from '../../components/slides/treatments/component';
 import { Clinics } from '../../components/lists/clinics/component';
 import { Metadata } from 'next';
+import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: 'Sempre Sorrindo',
@@ -56,6 +57,43 @@ export default function Home() {
         <h2>
           conheça nossos <span>tratamentos!</span>
         </h2>
+        <div className="bg-gray-50 py-8 sm:py-12 mb-10">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+              Implantes Dentários:{' '}
+              <span className="text-yellow-500">
+                A Solução Definitiva para seu Sorriso
+              </span>
+            </h2>
+            <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-12">
+              <div className="flex-1 text-center lg:text-left">
+                <p className="text-lg text-gray-700 mb-6">
+                  Perdeu um ou mais dentes? Os
+                  <strong> implantes dentários</strong> são a forma mais
+                  moderna, segura e natural de recuperar a função mastigatória e
+                  a estética do seu sorriso. Na <strong>Sempre Sorrindo</strong>
+                  , somos especialistas em implantodontia de alta performance.
+                </p>
+                <p className="text-gray-600 mb-8">
+                  Utilizamos materiais de titânio biocompatíveis e tecnologia de
+                  ponta, como planejamento digital e cirurgia guiada, para
+                  garantir um procedimento preciso, rápido e com o mínimo de
+                  desconforto. Recupere a confiança para sorrir, comer e falar
+                  sem medo.
+                </p>
+              </div>
+              <div className="flex-1 relative mt-8 h-96 w-full rounded-lg overflow-hidden lg:mt-0">
+                <Image
+                  src="https://backup.clinicassempresorrindo.com.br/storage/app/uploads/Mulher com sorriso saudável e completo, demonstrando o resultado de um implante dentário..png"
+                  alt="Paciente sorrindo após procedimento de implante dentário na Sempre Sorrindo"
+                  className="rounded-lg shadow-xl w-full h-auto object-cover"
+                  fill
+                  style={{ maxHeight: '450px' }}
+                />
+              </div>
+            </div>
+          </div>
+        </div>
         <TreatmentSlide />
       </section>
       <section id="sess4">
