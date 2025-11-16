@@ -82,7 +82,7 @@ export default function Home() {
                   sem medo.
                 </p>
               </div>
-              <div className="flex-1 relative mt-8 h-96 w-full rounded-lg overflow-hidden lg:mt-0">
+              <div className="flex-1 relative mt-8 h-96 w-full rounded-sm overflow-hidden lg:mt-0">
                 <Image
                   src="https://backup.clinicassempresorrindo.com.br/storage/app/uploads/Mulher com sorriso saudável e completo, demonstrando o resultado de um implante dentário..png"
                   alt="Paciente sorrindo após procedimento de implante dentário na Sempre Sorrindo"
