@@ -1,9 +1,9 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 import { TopSlide } from '../../components/slides/top/components';
 import { ClinicImage } from '../../components/pictures/clinic/component';
 import { StructureSlide } from '../../components/slides/strucuture/component';
-import { SmilesSlide } from '../../components/slides/smiles/component';
 import { Avatar } from '../../components/pictures/avatar/component';
 import { PrizesSLide } from '../../components/slides/prizes/component';
 import { NewsSlide } from '../../components/slides/news/component';
@@ -12,7 +12,7 @@ import { GooglePicture } from '../../components/pictures/google/component';
 import { TreatmentSlide } from '../../components/slides/treatments/component';
 import { Clinics } from '../../components/lists/clinics/component';
 import { Metadata } from 'next';
-import Image from 'next/image';
+import { SmilesSlide } from '@/app/components/slides/smiles/component';
 
 export const metadata: Metadata = {
   title: 'Sempre Sorrindo',

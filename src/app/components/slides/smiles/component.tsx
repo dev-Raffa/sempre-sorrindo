@@ -3,8 +3,7 @@
 import Image from 'next/image';
 import image1 from '../../../../../public/img/smiles/smile1.webp';
 import image2 from '../../../../../public/img/smiles/smile2.webp';
-import image3 from '../../../../../public/img/smiles/smile3.webp';
-import image4 from '../../../../../public/img/smiles/smile4.webp';
+
 import {
   Carousel,
   CarouselContent,
@@ -28,28 +27,14 @@ export const SmilesSlide = () => {
         <CarouselItem className="smile__list-item">
           <Image
             src={image1}
-            alt="foto de antes e depois do sorriso de um dos pacientes."
+            alt="foto de resultdo do sorriso de um dos pacientes."
           />
         </CarouselItem>
         <CarouselItem className="smile__list-item">
           <Image
             src={image2}
             loading="lazy"
-            alt="foto de antes e depois do sorriso de um dos pacientes."
-          />
-        </CarouselItem>
-        <CarouselItem className="smile__list-item">
-          <Image
-            src={image3}
-            loading="lazy"
-            alt="foto de antes e depois do sorriso de um dos pacientes."
-          />
-        </CarouselItem>
-        <CarouselItem className="smile__list-item">
-          <Image
-            src={image4}
-            loading="lazy"
-            alt="foto de antes e depois do sorriso de um dos pacientes."
+            alt="foto de resultdo do sorriso de um dos pacientes."
           />
         </CarouselItem>
       </CarouselContent>
