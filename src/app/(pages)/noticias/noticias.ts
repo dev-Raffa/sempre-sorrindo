@@ -10,12 +10,14 @@ export interface PageData {
 
 // Dados diretamente no código
 export const pagesLocal: PageData[] = [
-    {
-        title: 'Carga Imediata: É Possível Colocar Implante e Dente no Mesmo Dia?',
-        resume: 'Não quer esperar meses para ter dentes fixos? Descubra a Carga Imediata. Entenda como funciona a técnica que permite sair do consultório com o sorriso renovado em até 72 horas.',
-        url:'Carga-Imediata-Implante-Dente-Mesmo-Dia',
-        imgUrl: 'Paciente olhando no espelho e sorrindo feliz logo após procedimento de carga imediata em implante dentário.webp',
-        text: `
+  {
+    title: 'Carga Imediata: É Possível Colocar Implante e Dente no Mesmo Dia?',
+    resume:
+      'Não quer esperar meses para ter dentes fixos? Descubra a Carga Imediata. Entenda como funciona a técnica que permite sair do consultório com o sorriso renovado em até 72 horas.',
+    url: 'Carga-Imediata-Implante-Dente-Mesmo-Dia',
+    imgUrl:
+      'Paciente olhando no espelho e sorrindo feliz logo após procedimento de carga imediata em implante dentário.webp',
+    text: `
             <section id="introducao" class="mb-10">
                 <p class="text-lg text-gray-700 leading-relaxed mb-4">A maior objeção ao tratamento com implantes dentários sempre foi o tempo de espera. Tradicionalmente, o paciente precisava esperar de 3 a 6 meses para a cicatrização óssea antes de colocar a prótese (o dente). Mas a tecnologia evoluiu.</p>
                 <p class="text-lg text-gray-700 leading-relaxed mb-4">Hoje, com a técnica da <strong>Carga Imediata</strong>, é possível reduzir esse tempo drasticamente, permitindo que o paciente entre no consultório sem dentes (ou com dentes comprometidos) e saia com um sorriso fixo provisório <strong class="font-semibold text-gray-800">no mesmo dia ou em até 72 horas</strong>.</p>
@@ -117,13 +119,16 @@ export const pagesLocal: PageData[] = [
                 </div>
             </section>
         `
-    },
-    {
-        title: '7 Mitos e Verdades sobre Implantes Dentários: O Que Ninguém Te Conta',
-        resume: 'Será que implante rejeita? Dói muito? É só para idosos? Esclarecemos os 7 maiores mitos e verdades sobre implantes dentários para você perder o medo e decidir com segurança.',
-        url: '7-Mitos-e-Verdades-sobre-Implantes-Dentarios',
-        imgUrl: 'lupa-ampliando-um-implante-dentário_-simbolizando-a-descoberta-da-verdade-sobre-o-tratamento.webp',
-        text: `
+  },
+  {
+    title:
+      '7 Mitos e Verdades sobre Implantes Dentários: O Que Ninguém Te Conta',
+    resume:
+      'Será que implante rejeita? Dói muito? É só para idosos? Esclarecemos os 7 maiores mitos e verdades sobre implantes dentários para você perder o medo e decidir com segurança.',
+    url: '7-Mitos-e-Verdades-sobre-Implantes-Dentarios',
+    imgUrl:
+      'lupa-ampliando-um-implante-dentário_-simbolizando-a-descoberta-da-verdade-sobre-o-tratamento.webp',
+    text: `
             <section id="introducao" class="mb-10">
                 <p class="text-lg text-gray-700 leading-relaxed mb-4">Quando o assunto é recuperar o sorriso, a internet está cheia de informações — algumas corretas, outras nem tanto. É comum ouvir que "o corpo rejeita o implante" ou que "o tratamento é doloroso demais". Essas histórias acabam afastando muitos pacientes da solução ideal para sua saúde bucal.</p>
                 <p class="text-lg text-gray-700 leading-relaxed mb-4">Para ajudar você a separar a ficção da realidade, reunimos os <strong>7 maiores mitos e verdades sobre implantes dentários</strong>. Vamos esclarecer tudo agora mesmo.</p>
@@ -191,7 +196,7 @@ export const pagesLocal: PageData[] = [
                 <a href="https://api.whatsapp.com/send?phone=5516981651441&text=Ol%C3%A1%20gostaria%20de%20saber%20como%20funciona%20a%20clinica!" class="cta-button inline-block bg-blue-600 text-white font-bold py-3 px-8 rounded-lg text-lg shadow-md hover:bg-blue-700 transition-colors duration-200 no-underline">Quero Agendar Minha Avaliação</a>
             </section>
         `
-    },
+  },
   {
     title: 'Enxerto Ósseo para Implante: O Que Fazer Quando "Falta Osso"?',
     resume:
