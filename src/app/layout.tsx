@@ -5,7 +5,6 @@ import './styles/globals.css';
 import { Header } from './layout/header/component';
 import { Main } from './layout/main/component';
 import { Footer } from './layout/footer/component';
-import { GoogleTagManager } from '@next/third-parties/google';
 
 const sora = Sora({
   subsets: ['latin'],
@@ -34,7 +33,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
-      <GoogleTagManager gtmId="GTM-P438G7R5" />
+      <head>
+        <meta
+          name="google-site-verification"
+          content="VTCDLrxfHd7UDE9EICTOnJ1b0PReZW97GkWpvdm7sgc"
+        />
+      </head>
       <body className={sora.className}>
         <Header />
         <Main>{children}</Main>
