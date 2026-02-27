@@ -303,7 +303,7 @@ export const pagesLocal: PageData[] = [
     resume:
       'Tem pânico só de ouvir o motorzinho? Você não precisa sofrer. Descubra como funciona a Sedação Consciente, uma técnica segura que permite fazer seu implante dentário relaxado ou até dormindo.',
     url: 'Implante-Com-Sedacao-Consciente-Sem-Dor',
-    imgUrl: '',
+    imgUrl: 'implante-dentario-clinicas-sempre-sorrindo.webp',
     text: `
             <section id="introducao" class="mb-10">
                 <p class="text-lg text-gray-700 leading-relaxed mb-4">Se o seu coração dispara só de pensar em sentar na cadeira do dentista, você não está sozinho. A <strong>Odontofobia</strong> (medo de dentista) é uma das principais razões pelas quais as pessoas adiam o tratamento, deixando seus dentes piorarem até o ponto de perdê-los.</p>
