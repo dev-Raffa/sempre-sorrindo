@@ -12,6 +12,205 @@ export interface PageData {
 export const pagesLocal: PageData[] = [
   {
     title:
+      'Implante Zigomático: A Solução Rápida para Quem Perdeu Muito Osso (Sem Enxerto)',
+    resume:
+      'Disseram que você não tem osso maxilar suficiente e o enxerto demoraria meses? Conheça o Implante Zigomático, a técnica avançada que usa o osso da maçã do rosto e permite dentes fixos em poucos dias.',
+    url: '/implante-zigomatico-sem-enxerto-osseo',
+    imgUrl: 'implante-zigomatico-sem-enxerto-osseo.webp',
+    text: `
+            <section id="introducao" class="mb-10">
+                <p class="text-lg text-gray-700 leading-relaxed mb-4">Receber a notícia de que "não há osso suficiente" para um implante tradicional é desanimador. Até pouco tempo, a única saída seria passar por cirurgias complexas de enxerto ósseo e aguardar até um ano para ter os dentes fixos.</p>
+                <p class="text-lg text-gray-700 leading-relaxed mb-4">A boa notícia é que a odontologia desenvolveu uma alternativa revolucionária para pacientes com perda óssea severa na arcada superior: o <strong>Implante Zigomático</strong>. Com ele, você "pula" a etapa do enxerto e pode ter seu sorriso de volta de forma muito mais rápida.</p>
+            </section>
+
+            <section id="como-funciona" class="mb-10">
+                <h2 class="text-2xl md:text-3xl font-semibold text-gray-800 mt-8 mb-5 border-b pb-2 border-gray-200">O que é e como funciona o Implante Zigomático?</h2>
+                <p class="text-lg text-gray-700 leading-relaxed mb-4">Diferente do implante comum, que é fixado no osso maxilar (logo acima dos dentes), o implante zigomático é um pino de titânio mais longo. Ele é projetado para ser ancorado no <strong>osso zigomático</strong> (o osso da "maçã do rosto").</p>
+                <div class="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500 my-6">
+                    <p class="text-gray-800 font-semibold">Por que o osso da maçã do rosto? Porque, ao contrário do osso da boca que atrofia quando perdemos os dentes, o osso zigomático é extremamente denso e não sofre reabsorção. Ele oferece uma base sólida e perfeita para ancoragem.</p>
+                </div>
+            </section>
+
+            <section id="vantagens" class="mb-10">
+                <h2 class="text-2xl md:text-3xl font-semibold text-gray-800 mt-8 mb-5 border-b pb-2 border-gray-200">As Maiores Vantagens desta Técnica</h2>
+                <ul class="list-none space-y-4 mb-6 text-lg text-gray-700 leading-relaxed">
+                    <li class="flex items-start">
+                        <svg class="w-6 h-6 text-green-600 mr-3 shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        <span><strong>Dispensa o Enxerto Ósseo:</strong> Reduz o número de cirurgias, diminuindo o sofrimento, o tempo de cadeira e os custos adicionais.</span>
+                    </li>
+                    <li class="flex items-start">
+                        <svg class="w-6 h-6 text-green-600 mr-3 shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        <span><strong>Carga Imediata (Dentes Rápidos):</strong> Como o osso zigomático é muito firme, na maioria dos casos é possível instalar a prótese fixa provisória em até 72 horas após a cirurgia.</span>
+                    </li>
+                    <li class="flex items-start">
+                        <svg class="w-6 h-6 text-green-600 mr-3 shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        <span><strong>Alta Taxa de Sucesso:</strong> Estudos comprovam que os implantes zigomáticos têm taxas de sucesso superiores a 95%, proporcionando estabilidade a longo prazo.</span>
+                    </li>
+                </ul>
+            </section>
+
+            <section id="cta" class="mb-10 text-center bg-gray-50 p-8 rounded-lg shadow-sm">
+                <h2 class="text-2xl font-semibold text-gray-800 mb-4">Chega de usar dentadura solta</h2>
+                <p class="text-lg text-gray-700 leading-relaxed mb-6">Se você já ouviu que seu caso era "impossível", procure uma segunda opinião conosco. A técnica zigomática pode ser a sua solução.</p>
+                <a href="https://wa.me/5516981651441?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20implante%20zigomático%20(sem%20enxerto)." target="_blank" rel="noopener noreferrer" class="cta-button inline-block bg-green-600 text-white font-bold py-3 px-8 rounded-lg text-lg shadow-md hover:bg-green-700 transition-colors duration-200 no-underline flex items-center justify-center gap-2 mx-auto max-w-sm">
+                    <svg class="w-6 h-6 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6z"/></svg>
+                    Falar com um Especialista
+                </a>
+            </section>
+        `
+  },
+  {
+    title:
+      'Diabéticos e Hipertensos Podem Fazer Implante Dentário? Riscos e Cuidados',
+    resume:
+      'Ter diabetes ou pressão alta impede a colocação de implantes? Esclarecemos os riscos, a importância do controle das taxas antes da cirurgia e como a odontologia moderna atende pacientes com doenças crônicas com total segurança.',
+    url: '/diabeticos-e-hipertensos-podem-fazer-implante-dentario',
+    imgUrl: 'diabeticos-e-hipertensos-podem-fazer-implante-dentario.webp',
+    text: `
+            <section id="introducao" class="mb-10">
+                <p class="text-lg text-gray-700 leading-relaxed mb-4">Muitos pacientes com doenças crônicas chegam ao consultório com a mesma frustração: <em>"Eu queria colocar implantes, mas tenho diabetes (ou pressão alta), então acho que não posso"</em>. Esse é um mito muito comum que afasta milhares de pessoas da qualidade de vida que merecem.</p>
+                <p class="text-lg text-gray-700 leading-relaxed mb-4">A resposta direta é: <strong>Sim, diabéticos e hipertensos podem colocar implantes dentários.</strong> No entanto, a cirurgia exige protocolos de segurança mais rigorosos. Entenda abaixo como funciona.</p>
+            </section>
+
+            <section id="diabetes" class="mb-10">
+                <h2 class="text-2xl md:text-3xl font-semibold text-gray-800 mt-8 mb-5 border-b pb-2 border-gray-200">O Implante em Pacientes Diabéticos</h2>
+                <p class="text-lg text-gray-700 leading-relaxed mb-4">O maior desafio do diabetes na odontologia é a cicatrização. A doença descontrolada afeta a circulação sanguínea e diminui a capacidade do corpo de combater infecções, o que pode atrapalhar a <em>osseointegração</em> (a fusão do implante com o osso).</p>
+                <div class="bg-blue-50 p-6 rounded-lg border border-blue-100">
+                    <h3 class="text-xl font-bold text-blue-800 mb-2">A Regra de Ouro: O Controle</h3>
+                    <p class="text-lg text-gray-700 leading-relaxed">Se a sua glicemia estiver controlada (avaliada através do exame de Hemoglobina Glicosilada), você reage à cirurgia exatamente como uma pessoa sem diabetes. O dentista trabalhará em conjunto com seu endocrinologista, podendo prescrever antibióticos profiláticos (antes da cirurgia) para garantir que não haja infecção.</p>
+                </div>
+            </section>
+
+            <section id="hipertensao" class="mb-10">
+                <h2 class="text-2xl md:text-3xl font-semibold text-gray-800 mt-8 mb-5 border-b pb-2 border-gray-200">O Implante em Pacientes Hipertensos</h2>
+                <p class="text-lg text-gray-700 leading-relaxed mb-4">No caso da hipertensão (pressão alta), a preocupação principal é durante a cirurgia. O estresse, o medo do dentista ou até mesmo certos tipos de anestésicos podem elevar a pressão arterial a níveis perigosos.</p>
+                <ul class="list-disc list-inside space-y-3 mb-6 ml-4 text-lg text-gray-700 leading-relaxed">
+                    <li><strong class="font-semibold text-gray-800">Uso de Anestésicos Específicos:</strong> Utilizamos anestesias locais sem vasoconstritores adrenérgicos (que aceleram o coração), garantindo total estabilidade cardíaca.</li>
+                    <li><strong class="font-semibold text-gray-800">Sedação Consciente:</strong> É altamente recomendada para hipertensos, pois a sedação elimina a ansiedade e mantém a pressão arterial baixa e constante durante todo o procedimento.</li>
+                </ul>
+            </section>
+
+            <section id="preparo" class="mb-10 bg-yellow-50 p-6 rounded-lg border border-yellow-100">
+                <h2 class="text-2xl font-bold text-gray-800 mb-4">Exames Necessários Antes da Cirurgia</h2>
+                <p class="text-lg text-gray-700 leading-relaxed mb-4">A segurança vem do planejamento. Se você tem condições sistêmicas, solicitaremos:</p>
+                <ul class="list-disc list-inside space-y-2 text-lg text-gray-700">
+                    <li>Hemograma completo e Coagulograma.</li>
+                    <li>Glicemia em jejum e Hemoglobina Glicosilada (para diabéticos).</li>
+                    <li>Risco cirúrgico cardiológico (para hipertensos e cardiopatas).</li>
+                </ul>
+            </section>
+
+            <section id="cta" class="mb-10 text-center bg-gray-50 p-8 rounded-lg shadow-sm">
+                <h2 class="text-2xl font-semibold text-gray-800 mb-4">Recupere sua saúde com segurança</h2>
+                <p class="text-lg text-gray-700 leading-relaxed mb-6">Nossa equipe está preparada para cuidar de você com todos os protocolos de segurança que sua saúde exige. Agende uma avaliação tranquila.</p>
+                <a href="https://wa.me/5516981651441?text=Olá!%20Gostaria%20de%20agendar%20uma%20avaliação.%20Tenho%20uma%20condição%20de%20saúde%20e%20gostaria%20de%20esclarecer%20dúvidas." target="_blank" rel="noopener noreferrer" class="cta-button inline-block bg-green-600 text-white font-bold py-3 px-8 rounded-lg text-lg shadow-md hover:bg-green-700 transition-colors duration-200 no-underline flex items-center justify-center gap-2 mx-auto max-w-sm">
+                    <svg class="w-6 h-6 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6z"/></svg>
+                    Agendar Avaliação Segura
+                </a>
+            </section>
+        `
+  },
+  {
+    title:
+      'Overdenture ou Protocolo? Qual a Melhor Prótese Total sobre Implantes',
+    resume:
+      'Precisa substituir a dentadura inteira, mas não sabe qual prótese escolher? Comparamos a Overdenture (prótese de encaixe móvel) com o Protocolo (prótese fixa) para você entender a diferença de estabilidade, higiene e preço.',
+    url: '/overdenture-ou-protocolo-qual-a-melhor-protese',
+    imgUrl: 'overdenture-ou-protocolo-qual-a-melhor-protese.webp',
+    text: `
+            <section id="introducao" class="mb-10">
+                <p class="text-lg text-gray-700 leading-relaxed mb-4">Para quem perdeu todos os dentes de uma arcada, usar uma dentadura convencional (que cai e machuca) não é a única opção. A implantodontia oferece duas soluções excelentes para prender a prótese no osso: a <strong>Overdenture</strong> e a <strong>Prótese Protocolo</strong>.</p>
+                <p class="text-lg text-gray-700 leading-relaxed mb-4">Ambas devolvem a mastigação e o sorriso, mas funcionam de formas completamente diferentes. Qual é a ideal para o seu perfil e para o seu bolso? Vamos ao comparativo direto.</p>
+            </section>
+
+            <section id="overdenture" class="mb-10">
+                <h2 class="text-2xl md:text-3xl font-semibold text-gray-800 mt-8 mb-5 border-b pb-2 border-gray-200">O que é a Overdenture (Prótese de Encaixe)?</h2>
+                <p class="text-lg text-gray-700 leading-relaxed mb-4">A Overdenture é uma prótese total (dentadura) que se conecta a implantes dentários através de um sistema de encaixe (como botões de pressão ou barras-clipe). Geralmente, utiliza-se apenas 2 a 3 implantes na arcada inferior para estabilizá-la.</p>
+                <ul class="list-disc list-inside space-y-2 mb-4 ml-4 text-lg text-gray-700">
+                    <li><strong class="font-semibold text-gray-800">Ela é removível:</strong> O paciente tira a prótese em casa para higienizar após as refeições.</li>
+                    <li><strong class="font-semibold text-gray-800">Custo Menor:</strong> Como usa menos implantes e material acrílico, é a opção mais econômica de reabilitação com implantes.</li>
+                    <li><strong class="font-semibold text-gray-800">Fácil Limpeza:</strong> Ideal para pacientes idosos com dificuldade motora para usar fio dental.</li>
+                </ul>
+            </section>
+
+            <section id="protocolo" class="mb-10">
+                <h2 class="text-2xl md:text-3xl font-semibold text-gray-800 mt-8 mb-5 border-b pb-2 border-gray-200">O que é o Protocolo (Prótese Fixa)?</h2>
+                <p class="text-lg text-gray-700 leading-relaxed mb-4">A Prótese Protocolo é o sonho de consumo de quem usa dentadura. Ela é parafusada sobre 4 a 6 implantes e <strong>não sai da boca de jeito nenhum</strong> (apenas o dentista consegue removê-la para manutenção anual).</p>
+                <ul class="list-disc list-inside space-y-2 mb-4 ml-4 text-lg text-gray-700">
+                    <li><strong class="font-semibold text-gray-800">Estabilidade Absoluta:</strong> Você mastiga com a mesma força dos dentes naturais. Não há peças soltas.</li>
+                    <li><strong class="font-semibold text-gray-800">Céu da Boca Livre:</strong> Na arcada superior, o protocolo não cobre o palato, devolvendo o paladar completo dos alimentos.</li>
+                    <li><strong class="font-semibold text-gray-800">Estética Premium:</strong> Pode ser feita em materiais nobres como a Porcelana (Zircônia), oferecendo um sorriso extremamente natural.</li>
+                </ul>
+            </section>
+
+            <section id="comparativo" class="mb-10 bg-gray-50 p-6 rounded-lg border border-gray-200">
+                <h2 class="text-2xl font-bold text-gray-800 mb-4">Resumo da Decisão</h2>
+                <p class="text-lg text-gray-700 leading-relaxed mb-4">Escolha a <strong>Overdenture</strong> se você busca uma melhoria gigantesca em relação à dentadura comum (parar de usar adesivos), tem limitação financeira e prefere a facilidade de tirar a prótese para lavar.</p>
+                <p class="text-lg text-gray-700 leading-relaxed">Escolha o <strong>Protocolo</strong> se você quer esquecer que usa prótese. É o investimento definitivo para quem busca o máximo de conforto, estética impecável e a sensação de ter dentes naturais novamente.</p>
+            </section>
+
+            <section id="cta" class="mb-10 text-center">
+                <h2 class="text-2xl font-semibold text-gray-800 mb-4">Descubra a melhor opção para a sua estrutura óssea</h2>
+                <p class="text-lg text-gray-700 leading-relaxed mb-6">A indicação exata depende da quantidade de osso que você possui. Agende uma tomografia e uma avaliação com nossos especialistas.</p>
+                <a href="https://wa.me/5516981651441?text=Gostaria%20de%20avaliar%20as%20opções%20de%20Protocolo%20e%20Overdenture." target="_blank" rel="noopener noreferrer" class="cta-button inline-block bg-blue-600 text-white font-bold py-3 px-8 rounded-lg text-lg shadow-md hover:bg-blue-700 transition-colors duration-200 no-underline flex items-center justify-center gap-2 mx-auto max-w-sm">
+                    <svg class="w-6 h-6 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6z"/></svg>
+                    Falar com Dentista no WhatsApp
+                </a>
+            </section>
+        `
+  },
+  {
+    title:
+      'Sinais de Rejeição do Implante Dentário: O Que Observar e Como Evitar',
+    resume:
+      'Seu implante está doendo, sangrando ou um pouco mole? Esses são sinais de Peri-implantite, uma infecção na gengiva que pode causar a perda do implante. Saiba identificar os sintomas e a urgência de procurar o dentista.',
+    url: '/sinais-de-rejeicao-peri-implantite-implante-dentario',
+    imgUrl: 'sinais-de-rejeicao-peri-implantite-implante-dentario.webp',
+    text: `
+            <section id="introducao" class="mb-10">
+                <p class="text-lg text-gray-700 leading-relaxed mb-4">O índice de sucesso dos implantes dentários ultrapassa os 95%. No entanto, falhas podem ocorrer, e quando ocorrem, as pessoas costumam chamar popularmente de "rejeição". Como já explicamos em outros artigos, o corpo não rejeita o titânio imunologicamente.</p>
+                <p class="text-lg text-gray-700 leading-relaxed mb-4">O que realmente acontece é uma infecção bacteriana chamada <strong>Peri-implantite</strong>, ou uma falha na cicatrização óssea. Reconhecer os sinais de alerta logo no início é fundamental para salvar o seu implante e o seu investimento.</p>
+            </section>
+
+            <section id="sintomas" class="mb-10">
+                <h2 class="text-2xl md:text-3xl font-semibold text-gray-800 mt-8 mb-5 border-b pb-2 border-gray-200">5 Sinais de Alerta: Quando Procurar o Dentista Urgente</h2>
+                <p class="text-lg text-gray-700 leading-relaxed mb-4">Um implante saudável, após o período de cicatrização, deve se comportar exatamente como um dente natural: você não deve "senti-lo". Fique atento aos seguintes sintomas:</p>
+                <ol class="list-decimal list-inside space-y-4 mb-6 ml-4 text-lg text-gray-700 leading-relaxed">
+                    <li><strong class="font-semibold text-red-700">Mobilidade (Dente Mole):</strong> O pino ou a coroa estão balançando. Se for apenas a coroa desparafusada, o reparo é rápido. Se for o pino inteiro balançando no osso, é sinal de falha na osseointegração.</li>
+                    <li><strong class="font-semibold text-red-700">Dor ao Mastigar:</strong> Sentir dor ou pressão latejante ao morder sobre o implante meses após a cirurgia não é normal.</li>
+                    <li><strong class="font-semibold text-red-700">Gengiva Sangrando ou Inchada:</strong> Gengiva vermelha, sangrando ao passar o fio dental ou com pus ao redor da base do implante é o sinal clássico de Peri-implantite.</li>
+                    <li><strong class="font-semibold text-red-700">Mau Hálito Persistente:</strong> Infecções bacterianas profundas liberam gases que causam gosto ruim na boca e halitose aguda.</li>
+                    <li><strong class="font-semibold text-red-700">Retração Gengival Visível:</strong> Se você começar a ver a rosca metálica (cinza) do implante aparecendo próximo à gengiva, significa que você está perdendo osso.</li>
+                </ol>
+            </section>
+
+            <section id="causas" class="mb-10 bg-yellow-50 p-6 rounded-lg border border-yellow-100">
+                <h2 class="text-2xl font-bold text-gray-800 mb-4">O que Causa a Falha do Implante?</h2>
+                <ul class="list-disc list-inside space-y-2 text-lg text-gray-700">
+                    <li><strong class="font-semibold">Má Higiene Bucal:</strong> O acúmulo de placa bacteriana ao redor do implante é a causa nº 1.</li>
+                    <li><strong class="font-semibold">Tabagismo:</strong> Fumar reduz drasticamente a defesa da gengiva e prejudica a cicatrização.</li>
+                    <li><strong class="font-semibold">Sobrecarga:</strong> Apertamento de dentes (bruxismo) sem o uso de placa protetora, colocando força excessiva sobre o pino.</li>
+                </ul>
+            </section>
+
+            <section id="tratamento" class="mb-10">
+                <h2 class="text-2xl md:text-3xl font-semibold text-gray-800 mt-8 mb-5 border-b pb-2 border-gray-200">Tem Salvação?</h2>
+                <p class="text-lg text-gray-700 leading-relaxed mb-4">Depende do estágio da inflamação. Se detectado precocemente, o dentista pode realizar uma limpeza profunda (descontaminação) na área, ajustar a mordida ou prescrever antibióticos para salvar o implante.</p>
+                <p class="text-lg text-gray-700 leading-relaxed">No entanto, se a perda óssea for muito avançada e o implante estiver mole, será necessário removê-lo, limpar a infecção, aguardar a recuperação e, posteriormente, realizar um enxerto ósseo para tentar um novo implante no futuro.</p>
+            </section>
+
+            <section id="cta" class="mb-10 text-center bg-red-50 p-8 rounded-lg shadow-sm border border-red-100">
+                <h2 class="text-2xl font-semibold text-red-800 mb-4">Não espere a dor piorar!</h2>
+                <p class="text-lg text-gray-700 leading-relaxed mb-6">Problemas no implante não se resolvem sozinhos e avançam rápido. Mande uma mensagem agora para avaliarmos a situação.</p>
+                <a href="https://wa.me/5516981651441?text=Olá,%20estou%20com%20um%20problema/dor%20no%20meu%20implante%20e%20preciso%20de%20ajuda%20urgente." target="_blank" rel="noopener noreferrer" class="cta-button inline-block bg-red-600 text-white font-bold py-3 px-8 rounded-lg text-lg shadow-md hover:bg-red-700 transition-colors duration-200 no-underline flex items-center justify-center gap-2 mx-auto max-w-sm">
+                    <svg class="w-6 h-6 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6z"/></svg>
+                    Falar com Emergência
+                </a>
+            </section>
+        `
+  },
+  {
+    title:
       'Quanto Custa um Implante Dentário? Entenda o Que Você Realmente Paga',
     resume:
       'O preço do implante varia muito? Entenda a diferença entre implante nacional e importado, os materiais da coroa (porcelana ou resina) e por que desconfiar de valores muito baixos.',
