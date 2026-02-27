@@ -15,7 +15,7 @@ export const pagesLocal: PageData[] = [
       'Implante Zigomático: A Solução Rápida para Quem Perdeu Muito Osso (Sem Enxerto)',
     resume:
       'Disseram que você não tem osso maxilar suficiente e o enxerto demoraria meses? Conheça o Implante Zigomático, a técnica avançada que usa o osso da maçã do rosto e permite dentes fixos em poucos dias.',
-    url: '/implante-zigomatico-sem-enxerto-osseo',
+    url: 'implante-zigomatico-sem-enxerto-osseo',
     imgUrl: 'implante-zigomatico-sem-enxerto-osseo.webp',
     text: `
             <section id="introducao" class="mb-10">
@@ -64,7 +64,7 @@ export const pagesLocal: PageData[] = [
       'Diabéticos e Hipertensos Podem Fazer Implante Dentário? Riscos e Cuidados',
     resume:
       'Ter diabetes ou pressão alta impede a colocação de implantes? Esclarecemos os riscos, a importância do controle das taxas antes da cirurgia e como a odontologia moderna atende pacientes com doenças crônicas com total segurança.',
-    url: '/diabeticos-e-hipertensos-podem-fazer-implante-dentario',
+    url: 'diabeticos-e-hipertensos-podem-fazer-implante-dentario',
     imgUrl: 'diabeticos-e-hipertensos-podem-fazer-implante-dentario.webp',
     text: `
             <section id="introducao" class="mb-10">
@@ -115,7 +115,7 @@ export const pagesLocal: PageData[] = [
       'Overdenture ou Protocolo? Qual a Melhor Prótese Total sobre Implantes',
     resume:
       'Precisa substituir a dentadura inteira, mas não sabe qual prótese escolher? Comparamos a Overdenture (prótese de encaixe móvel) com o Protocolo (prótese fixa) para você entender a diferença de estabilidade, higiene e preço.',
-    url: '/overdenture-ou-protocolo-qual-a-melhor-protese',
+    url: 'overdenture-ou-protocolo-qual-a-melhor-protese',
     imgUrl: 'overdenture-ou-protocolo-qual-a-melhor-protese.webp',
     text: `
             <section id="introducao" class="mb-10">
@@ -164,7 +164,7 @@ export const pagesLocal: PageData[] = [
       'Sinais de Rejeição do Implante Dentário: O Que Observar e Como Evitar',
     resume:
       'Seu implante está doendo, sangrando ou um pouco mole? Esses são sinais de Peri-implantite, uma infecção na gengiva que pode causar a perda do implante. Saiba identificar os sintomas e a urgência de procurar o dentista.',
-    url: '/sinais-de-rejeicao-peri-implantite-implante-dentario',
+    url: 'sinais-de-rejeicao-peri-implantite-implante-dentario',
     imgUrl: 'sinais-de-rejeicao-peri-implantite-implante-dentario.webp',
     text: `
             <section id="introducao" class="mb-10">
