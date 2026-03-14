@@ -15,7 +15,7 @@ export const pagesLocal: PageData[] = [
       'Implante Nacional ou Importado: Como Escolher a Melhor Opção para o Seu Sorriso?',
     resume:
       'Na hora de fazer um orçamento, surge a dúvida: vale a pena pagar mais por um implante importado (suíço)? Entenda as diferenças reais de tecnologia, tempo de cicatrização e custo-benefício entre as marcas.',
-    url: '/implante-nacional-ou-importado-diferencas',
+    url: 'implante-nacional-ou-importado-diferencas',
     imgUrl: 'implante-nacional-ou-importado-diferencas.webp',
     text: `
             <section id="introducao" class="mb-10">
