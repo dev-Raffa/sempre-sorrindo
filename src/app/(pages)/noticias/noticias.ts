@@ -1796,6 +1796,7 @@ export async function getNews() {
   const newsPages = pagesLocal;
 
   newsOnBlog.map((blog) => {
+    if (!blog.title) return;
     newsPages.push({
       text: blog.text,
       title: blog.title,

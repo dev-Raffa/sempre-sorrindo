@@ -91,8 +91,8 @@ export default async function DynamicPage({
       />
       <div id="NewsPage">
         <section id="bannerNoticia"></section>
-        <article>
-          <div className="center">
+        <article className="w-full flex flex-col items-center justify-center">
+          <div className="center w-full">
             <figure>
               <Image
                 src={`https://backup.clinicassempresorrindo.com.br/storage/app/uploads/${page.imgUrl}`}
