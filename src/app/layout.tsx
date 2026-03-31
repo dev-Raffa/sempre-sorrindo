@@ -38,7 +38,7 @@ export default function RootLayout({
       <head>
         <meta
           name="google-site-verification"
-          content="VTCDLrxfHd7UDE9EICTOnJ1b0PReZW97GkWpvdm7sgc"
+          content="cOMMVGwllYMovj0HJTdijnWWQ7SpZY5Bfsc-nlh3yUU"
         />
       </head>
       <body className={sora.className}>
