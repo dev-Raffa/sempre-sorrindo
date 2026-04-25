@@ -15,7 +15,7 @@ export const pagesLocal: PageData[] = [
       'Implante Dentário em Ribeirão Preto: Como Escolher a Clínica Certa para o Seu Sorriso?',
     resume:
       'Procurando por implante dentário em Ribeirão Preto e região? Descubra o que você deve avaliar antes de escolher seu dentista, a importância da tecnologia 3D e por que somos referência na cidade.',
-    url: '/implante-dentario-em-ribeirao-preto-especialista',
+    url: 'implante-dentario-em-ribeirao-preto-especialista',
     imgUrl: 'Foto Blog - Inauguração Araraquara.jpg',
     text: `
             <section id="introducao" class="mb-10">
