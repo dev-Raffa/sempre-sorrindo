@@ -91,7 +91,7 @@ export const pagesLocal: PageData[] = [
       'Como é Feito um Implante Dentário? O Passo a Passo Completo (Sem Medo)',
     resume:
       'Vai fazer um implante dentário e está ansioso com o procedimento? Explicamos de forma simples e clara todas as etapas do tratamento: desde a avaliação com tomografia até a entrega do seu novo dente definitivo.',
-    url: '/como-e-feito-implante-dentario-passo-a-passo',
+    url: 'como-e-feito-implante-dentario-passo-a-passo',
     imgUrl: 'quem-pode-fazer-implante-dentario-clinicas-sempre-sorrindo.jpeg', // URL da imagem a ser inserida
     text: `
             <section id="introducao" class="mb-10">
@@ -180,7 +180,7 @@ export const pagesLocal: PageData[] = [
       'Cirurgia Guiada de Implante Dentário: A Tecnologia "Sem Cortes" e Sem Pontos',
     resume:
       'Tem medo da cirurgia de implante? Conheça a Cirurgia Guiada por Computador. Entenda como o planejamento digital em 3D permite a colocação de implantes dentários com extrema precisão, sem cortes de bisturi na gengiva e com recuperação acelerada.',
-    url: '/cirurgia-guiada-implante-dentario-sem-cortes',
+    url: 'cirurgia-guiada-implante-dentario-sem-cortes',
     imgUrl:
       'Mulher com sorriso saudável e completo, demonstrando o resultado de um implante dentário..png', // URL da imagem a ser inserida
     text: `
