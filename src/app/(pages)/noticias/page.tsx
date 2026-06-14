@@ -29,7 +29,11 @@ export default async function Page() {
                 <Link href={`/noticias/${blog.url}`}>
                   <figure>
                     <Image
-                      src={`https://backup.clinicassempresorrindo.com.br/storage/app/uploads/${blog.imgUrl}`}
+                      src={
+                        blog.imgUrl.startsWith('/')
+                          ? blog.imgUrl
+                          : `https://backup.clinicassempresorrindo.com.br/storage/app/uploads/${blog.imgUrl}`
+                      }
                       alt={blog.title}
                       fill
                       quality={100}

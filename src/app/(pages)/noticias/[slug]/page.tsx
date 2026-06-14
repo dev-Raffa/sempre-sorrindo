@@ -27,7 +27,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: page?.title,
       description: page?.resume,
       images: [
-        `https://backup.clinicassempresorrindo.com.br/storage/app/uploads/${page?.imgUrl}`
+        page?.imgUrl.startsWith('/')
+          ? page?.imgUrl
+          : `https://backup.clinicassempresorrindo.com.br/storage/app/uploads/${page?.imgUrl}`
       ]
     }
   };
@@ -64,7 +66,9 @@ export default async function DynamicPage({
     },
     headline: page.title,
     image: [
-      `https://backup.clinicassempresorrindo.com.br/storage/app/uploads/${page.imgUrl}`
+      page.imgUrl.startsWith('/')
+        ? page.imgUrl
+        : `https://backup.clinicassempresorrindo.com.br/storage/app/uploads/${page.imgUrl}`
     ],
     author: {
       '@type': 'Organization',
@@ -95,7 +99,11 @@ export default async function DynamicPage({
           <div className="center w-full">
             <figure>
               <Image
-                src={`https://backup.clinicassempresorrindo.com.br/storage/app/uploads/${page.imgUrl}`}
+                src={
+                  page.imgUrl.startsWith('/')
+                    ? page.imgUrl
+                    : `https://backup.clinicassempresorrindo.com.br/storage/app/uploads/${page.imgUrl}`
+                }
                 alt={page.title}
                 fill
               ></Image>
