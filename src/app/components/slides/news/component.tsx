@@ -28,14 +28,18 @@ export const NewsSlide = () => {
           return (
             index <= 2 && (
               <CarouselItem
-                key={`news-higlight-${index}`}
+                key={`news-higlight-${news.title}`}
                 className="news__item ml-4"
               >
                 <Link href={`/noticias/${news.url}`}>
                   <figure>
                     <Image
                       loading="lazy"
-                      src={`https://backup.clinicassempresorrindo.com.br/storage/app/uploads/${news.imgUrl}`}
+                      src={
+                        news.imgUrl.startsWith('/')
+                          ? news.imgUrl
+                          : `https://backup.clinicassempresorrindo.com.br/storage/app/uploads/${news.imgUrl}`
+                      }
                       alt={news.title}
                       style={{ objectFit: 'cover' }}
                       fill
