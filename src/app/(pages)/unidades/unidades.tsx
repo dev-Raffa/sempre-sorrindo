@@ -399,8 +399,8 @@ export const unidades: IUnidade[] = [
     whatsapp: '',
     cro: '032.875',
     responsavelTecnico: {
-      nome: 'Dr. Felipe Alves DA S. Geradelli',
-      cro: '131.333'
+      nome: 'Dr. Paulo Eduardo M. de S. Galdino',
+      cro: '164.023'
     },
     contato: {
       telefones: ['(16) 98261-0040'],
