@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import './styles.scss';
 import Image from 'next/image';
-import { getNews } from './noticias';
+import { getPublishedNews } from './noticias';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -16,8 +16,10 @@ export const metadata: Metadata = {
   }
 };
 
+export const revalidate = 3600;
+
 export default async function Page() {
-  const news = await getNews();
+  const news = await getPublishedNews();
 
   return (
     <>

@@ -13,6 +13,7 @@ import { TreatmentSlide } from '../../components/slides/treatments/component';
 import { Clinics } from '../../components/lists/clinics/component';
 import { Metadata } from 'next';
 import { SmilesSlide } from '@/app/components/slides/smiles/component';
+import { getPublishedNews } from '@/app/(pages)/noticias/noticias';
 
 export const metadata: Metadata = {
   title: 'Sempre Sorrindo',
@@ -27,7 +28,10 @@ export const metadata: Metadata = {
   }
 };
 
-export default function Home() {
+export const revalidate = 3600;
+
+export default async function Home() {
+  const publishedNews = await getPublishedNews();
   return (
     <>
       <section id="sess1">
@@ -158,7 +162,7 @@ export default function Home() {
       <section id="sess7">
         <div className="sess7__wrapper">
           <h3>Notícias</h3>
-          <NewsSlide />
+          <NewsSlide news={publishedNews} />
         </div>
       </section>
       <section id="sess8">

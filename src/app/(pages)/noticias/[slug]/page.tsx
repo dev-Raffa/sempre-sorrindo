@@ -2,6 +2,7 @@ import './styles.scss';
 import { getNews, PageData } from '../noticias';
 import Image from 'next/image';
 import type { Metadata } from 'next';
+import { marked } from 'marked';
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -111,7 +112,7 @@ export default async function DynamicPage({
             <h1 style={{ fontSize: '30px', marginBottom: '20px' }}>
               <strong>{page.title}</strong>
             </h1>
-            <div dangerouslySetInnerHTML={{ __html: page.text }}></div>
+            <div dangerouslySetInnerHTML={{ __html: marked.parse(page.text) as string }}></div>
           </div>
         </article>
       </div>
