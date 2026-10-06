@@ -2,11 +2,9 @@
 
 import Image from 'next/image';
 
-import imageDesktop from '../../../../../public/img/Banner-Site-Sempre-Sorrindo-16-anosPrancheta-1.png'
 import imageDesktop1 from '../../../../../public/img/sess1-slide1-desktop.webp';
 import imageDesktop2 from '../../../../../public/img/sess1-slide2-desktop.webp';
 
-import imageMobile from '../../../../../public/img/Banner-Site-Sempre-Sorrindo-16-anos_mobilePrancheta-1.png'
 import imageMobile1 from '../../../../../public/img/sess1-slide1-mobile.webp';
 import imageMobile2 from '../../../../../public/img/sess1-slide2-mobile.webp';
 
@@ -34,18 +32,6 @@ export const TopSlide = () => {
     >
       <CarouselContent className="h-full">
         <CarouselItem className="p-0 m-0 h-full">
-          <Image
-            src={imageMobile}
-            priority
-            alt="duas pessoas sorrindo."
-            className="object-cover h-full lg:hidden w-full object-top"
-          />
-          <Image
-            src={imageDesktop}
-            priority
-            alt="duas pessoas sorrindo."
-            className="object-cover h-full hidden lg:flex"
-          />
           <Image
             src={imageMobile1}
             priority
