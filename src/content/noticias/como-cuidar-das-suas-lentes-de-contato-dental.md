@@ -1,7 +1,7 @@
 ---
 title: "Como Cuidar das Suas Lentes de Contato Dental: 4 Dicas Fundamentais"
 resume: "Você já realizou o sonho do sorriso perfeito? Agora, aprenda os cuidados necessários para que as suas lentes de contato durem por décadas!"
-imgUrl: "/noticias/img_beneficios_implante.jpg"
+imgUrl: "/noticias/img_cuidados_lentes.jpg"
 order: -9
 publishDate: "2026-09-28T08:00:00"
 ---
