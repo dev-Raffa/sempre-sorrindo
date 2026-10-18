@@ -2,7 +2,7 @@
 title: "Implante com Carga Imediata: Dentes Fixos em Poucos Dias?"
 resume: "Saiba o que é a carga imediata em implantes dentários, quando ela pode ser indicada e quais cuidados garantem um bom resultado."
 imgUrl: "/noticias/img_carga_imediata.jpg"
-order: -15
+order: -17
 publishDate: "2026-11-23T08:00:00"
 ---
 

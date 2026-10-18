@@ -2,7 +2,7 @@
 title: "Aparelho Invisível ou Aparelho Fixo: Qual Escolher?"
 resume: "Compare alinhadores transparentes e aparelho fixo em estética, conforto, higiene e indicações, e descubra qual faz mais sentido para o seu caso."
 imgUrl: "/noticias/img_alinhador_vs_fixo.jpg"
-order: -11
+order: -13
 publishDate: "2026-10-26T08:00:00"
 ---
 

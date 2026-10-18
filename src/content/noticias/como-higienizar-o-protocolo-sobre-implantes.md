@@ -2,7 +2,7 @@
 title: "Como Higienizar o Protocolo sobre Implantes: Guia Prático"
 resume: "Aprenda como limpar corretamente a prótese protocolo e os implantes para evitar infecções e garantir que o tratamento dure por muitos anos."
 imgUrl: "/noticias/img_higiene_protocolo.jpg"
-order: -16
+order: -18
 publishDate: "2026-11-30T08:00:00"
 ---
 

@@ -2,7 +2,7 @@
 title: "Protocolo sobre Implantes: O Que É e Para Quem É Indicado"
 resume: "Perdeu muitos dentes ou todos eles? Entenda o que é a prótese protocolo sobre implantes e se esse tratamento pode ser indicado para você."
 imgUrl: "/noticias/img_protocolo_implante.jpg"
-order: -13
+order: -15
 publishDate: "2026-11-09T08:00:00"
 ---
 

@@ -2,7 +2,7 @@
 title: "Alinhadores Invisíveis: Como Funciona o Tratamento Passo a Passo"
 resume: "Entenda como funciona o tratamento com alinhadores transparentes, quanto tempo dura e o que esperar de cada etapa até o sorriso alinhado."
 imgUrl: "/noticias/img_alinhadores_como_funciona.jpg"
-order: -10
+order: -12
 publishDate: "2026-10-19T08:00:00"
 ---
 

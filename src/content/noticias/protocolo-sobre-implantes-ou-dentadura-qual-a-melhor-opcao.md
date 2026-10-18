@@ -2,7 +2,7 @@
 title: "Protocolo sobre Implantes ou Dentadura: Qual a Melhor Opção?"
 resume: "Compare a dentadura tradicional com o protocolo sobre implantes em conforto, mastigação, estética e durabilidade antes de decidir."
 imgUrl: "/noticias/img_protocolo_vs_dentadura.jpg"
-order: -14
+order: -16
 publishDate: "2026-11-16T08:00:00"
 ---
 

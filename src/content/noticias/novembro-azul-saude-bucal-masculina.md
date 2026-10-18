@@ -2,7 +2,7 @@
 title: "Novembro Azul: Por Que a Saúde Bucal do Homem Também Merece Atenção"
 resume: "No Novembro Azul, lembre-se de que cuidar da boca também é cuidar da saúde. Veja os riscos mais comuns entre os homens e como prevenir."
 imgUrl: "/noticias/img_novembro_azul_saude_bucal.jpg"
-order: -12
+order: -14
 publishDate: "2026-11-02T08:00:00"
 ---
 
