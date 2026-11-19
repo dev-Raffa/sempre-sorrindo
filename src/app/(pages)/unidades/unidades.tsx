@@ -80,8 +80,8 @@ export const unidades: IUnidade[] = [
     whatsapp: '',
     cro: '026.887',
     responsavelTecnico: {
-      nome: 'Dra. Ingrid Antoniazi',
-      cro: '119.726'
+      nome: 'Dr. Arthur Vinicius Gomes',
+      cro: '147.436'
     },
     contato: {
       telefones: ['(17) 3342-9331'],
@@ -271,8 +271,8 @@ export const unidades: IUnidade[] = [
     whatsapp: '',
     cro: '012.121',
     responsavelTecnico: {
-      nome: 'Dr. Juan Antoniazi',
-      cro: '148.975'
+      nome: 'Dr. Matheus Salume Belchior',
+      cro: '148.777'
     },
     contato: {
       telefones: ['(16) 3632-4459', '(16) 99769-5999', '(16) 98263-6565'],
