@@ -13,6 +13,7 @@ import RibeiraoPreto4Image from '@public/img/clinics/ribeirao-preto-4.webp';
 import RibeiraoPreto5Image from '@public/img/clinics/ribeirao-preto-5.webp';
 import SertaozinhoImage from '@public/img/clinics/sertaozinho.webp';
 import AraraquaraImage from '@public/img/clinics/araraquara.jpg';
+import RibeiraoPreto6Image from '@public/img/office3.webp';
 
 export interface IUnidade {
   imgURl: StaticImport;
@@ -22,10 +23,11 @@ export interface IUnidade {
   instagram: string;
   twitter: string;
   whatsapp: string;
-  cro: string;
+  cro?: string;
+  cnpj?: string;
   responsavelTecnico: {
     nome: string;
-    cro: string;
+    cro?: string;
   };
   contato: {
     telefones: string[];
@@ -348,6 +350,37 @@ export const unidades: IUnidade[] = [
     mapa: (
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.904261958359!2d-47.82145118544257!3d-21.156207983067016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b9be40dd5e353b%3A0xe4d9371477a13096!2sAv.%20Dom%20Pedro%20I%2C%20709%20-%20Ipiranga%2C%20Ribeir%C3%A3o%20Preto%20-%20SP%2C%2014055-620!5e0!3m2!1spt-BR!2sbr!4v1617550925769!5m2!1spt-BR!2sbr"
+        width="600"
+        height="450"
+        className="w-full"
+        style={{ border: 0 }}
+        allowFullScreen
+        loading="lazy"
+      ></iframe>
+    )
+  },
+  {
+    imgURl: RibeiraoPreto6Image,
+    cidade: 'Ribeirão Preto',
+    slug: 'ribeirao-preto-6',
+    facebook: '',
+    instagram: '',
+    twitter: '',
+    whatsapp: '',
+    cnpj: '12.463.123/0004-90',
+    responsavelTecnico: {
+      nome: 'Dr. Victor'
+    },
+    contato: {
+      telefones: ['(16) 99609-6283', '(16) 99635-5964'],
+      whatsapp: '5516996096283',
+      celular: '(16) 99609-6283'
+    },
+    endereco: 'Avenida Saudade, 1009 - Campos Elíseos, Ribeirão Preto - SP',
+    cep: '14080-000',
+    mapa: (
+      <iframe
+        src="https://maps.google.com/maps?q=Avenida+Saudade%2C+1009%2C+Campos+El%C3%ADseos%2C+Ribeir%C3%A3o+Preto+-+SP%2C+14080-000&output=embed"
         width="600"
         height="450"
         className="w-full"

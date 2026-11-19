@@ -60,7 +60,8 @@ export default function Clinicas() {
                 />
                 <h2>{clinica.cidade}</h2>
                 <p>
-                  {clinica.endereco}, {clinica.cep} - CROSP: {clinica.cro}
+                  {clinica.endereco}, {clinica.cep}
+                  {clinica.cro ? ` - CROSP: ${clinica.cro}` : ''}
                 </p>
                 <Link className="book__btn" href={`/unidades/${clinica.slug}`}>
                   Entrar em contato

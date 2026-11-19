@@ -128,12 +128,18 @@ export default async function DynamicPage({ params }: Props) {
       </section>
       <section id="sess3_single-clinic">
         <p>Institucional: </p>
-        <h2>CRO SP: {clinica.cro}</h2>
+        {clinica.cro && <h2>CRO SP: {clinica.cro}</h2>}
+        {clinica.cnpj && <h2>CNPJ: {clinica.cnpj}</h2>}
         <br />
         <p>Responsável Técnico:</p>
         <h2>
-          {clinica.responsavelTecnico.nome} <br />
-          CRO SP: {clinica.responsavelTecnico.cro}
+          {clinica.responsavelTecnico.nome}
+          {clinica.responsavelTecnico.cro && (
+            <>
+              <br />
+              CRO SP: {clinica.responsavelTecnico.cro}
+            </>
+          )}
         </h2>
         <div className="phone__contact">
           <p>Telefone:</p>
