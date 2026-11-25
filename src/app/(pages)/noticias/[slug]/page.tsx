@@ -112,7 +112,11 @@ export default async function DynamicPage({
             <h1 style={{ fontSize: '30px', marginBottom: '20px' }}>
               <strong>{page.title}</strong>
             </h1>
-            <div dangerouslySetInnerHTML={{ __html: marked.parse(page.text) as string }}></div>
+            <div
+              dangerouslySetInnerHTML={{
+                __html: marked.parse(page.text) as string
+              }}
+            ></div>
           </div>
         </article>
       </div>

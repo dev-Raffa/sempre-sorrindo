@@ -7,6 +7,8 @@ import imageDesktop2 from '../../../../../public/img/sess1-slide2-desktop.webp';
 
 import imageMobile1 from '../../../../../public/img/sess1-slide1-mobile.webp';
 import imageMobile2 from '../../../../../public/img/sess1-slide2-mobile.webp';
+import inaugurationDesktop from '../../../../../public/img/inauguracao-desktop.png';
+import inaugurationMobile from '../../../../../public/img/inauguracao-mobile.png';
 
 import {
   Carousel,
@@ -69,6 +71,20 @@ export const TopSlide = () => {
             loading="lazy"
             alt="selo do ranking great places to work"
             className="hidden lg:flex h-full"
+          />
+        </CarouselItem>
+        <CarouselItem className="p-0 m-0 h-full flex items-center justify-center bg-white">
+          <Image
+            src={inaugurationMobile}
+            loading="lazy"
+            alt="Inauguração da 13ª unidade Sempre Sorrindo na Av. Saudade, 1009, em Ribeirão Preto, com avaliação e raio-X panorâmico gratuitos."
+            className="h-full w-full object-contain lg:hidden"
+          />
+          <Image
+            src={inaugurationDesktop}
+            loading="lazy"
+            alt="Inauguração da 13ª unidade Sempre Sorrindo na Av. Saudade, 1009, em Ribeirão Preto, com avaliação e raio-X panorâmico gratuitos."
+            className="hidden h-full w-full object-contain lg:block"
           />
         </CarouselItem>
       </CarouselContent>
