@@ -33,6 +33,20 @@ export const TopSlide = () => {
       className="h-full"
     >
       <CarouselContent className="h-full">
+        <CarouselItem className="p-0 m-0 h-full flex items-center justify-center bg-white">
+          <Image
+            src={inaugurationMobile}
+            loading="lazy"
+            alt="Inauguração da 13ª unidade Sempre Sorrindo na Av. Saudade, 1009, em Ribeirão Preto, com avaliação e raio-X panorâmico gratuitos."
+            className="h-full w-full object-contain lg:hidden"
+          />
+          <Image
+            src={inaugurationDesktop}
+            loading="lazy"
+            alt="Inauguração da 13ª unidade Sempre Sorrindo na Av. Saudade, 1009, em Ribeirão Preto, com avaliação e raio-X panorâmico gratuitos."
+            className="hidden h-full w-full object-contain lg:block"
+          />
+        </CarouselItem>
         <CarouselItem className="p-0 m-0 h-full">
           <Image
             src={imageMobile1}
@@ -71,20 +85,6 @@ export const TopSlide = () => {
             loading="lazy"
             alt="selo do ranking great places to work"
             className="hidden lg:flex h-full"
-          />
-        </CarouselItem>
-        <CarouselItem className="p-0 m-0 h-full flex items-center justify-center bg-white">
-          <Image
-            src={inaugurationMobile}
-            loading="lazy"
-            alt="Inauguração da 13ª unidade Sempre Sorrindo na Av. Saudade, 1009, em Ribeirão Preto, com avaliação e raio-X panorâmico gratuitos."
-            className="h-full w-full object-contain lg:hidden"
-          />
-          <Image
-            src={inaugurationDesktop}
-            loading="lazy"
-            alt="Inauguração da 13ª unidade Sempre Sorrindo na Av. Saudade, 1009, em Ribeirão Preto, com avaliação e raio-X panorâmico gratuitos."
-            className="hidden h-full w-full object-contain lg:block"
           />
         </CarouselItem>
       </CarouselContent>
