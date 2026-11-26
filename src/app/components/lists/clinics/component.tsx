@@ -8,6 +8,7 @@ export const Clinics = () => {
         <p>São Sebastião, 610 - Centro</p>
         <p>Av. Dom Pedro l, 709 - Ipiranga</p>
         <p>Av. Presidente Vargas, 498 - Jd. Sumaré</p>
+        <p>Av. Saudade, 1009 - Campos Elíseos</p>
       </li>
       <li className="clinics__list-item">
         <h3>Barretos</h3>

@@ -47,7 +47,7 @@ export const TopSlide = () => {
             className="hidden h-full w-full object-contain lg:block"
           />
         </CarouselItem>
-        <CarouselItem className="p-0 m-0 h-full">
+        <CarouselItem className="relative p-0 m-0 h-full">
           <Image
             src={imageMobile1}
             priority
